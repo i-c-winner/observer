@@ -1,7 +1,17 @@
-import {OEE} from "../pages/graphs/OEE";
+import {OEE} from "../pages/graphs";
+import { Workering } from "../pages/graphs/Workering";
+import { AuthProvider } from "./context/auth-context";
+
 
 function App () {
-  return <OEE />
+  return  <AuthProvider>
+
+      <OEE />
+      <Workering />
+
+  </AuthProvider>
+
+
 }
 
 export {App}

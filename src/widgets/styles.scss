@@ -1,0 +1,14 @@
+.logo__bar {
+  &_header {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("../shared/assets/image/logo.png");
+  }
+}
+.bar-graphe {
+  &__name {
+    padding: 5px 10px;
+    background-color: red;
+  }
+}

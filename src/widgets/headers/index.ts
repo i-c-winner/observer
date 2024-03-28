@@ -1,0 +1,1 @@
+export {BarHeader as BarHeader} from './BarHeader'

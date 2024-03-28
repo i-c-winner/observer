@@ -1,5 +1,7 @@
-import { Grid } from "@mui/material";
-import { BarGraph } from "../../entities/barGraph/BarGraph";
+import { Box, Grid, Typography } from "@mui/material";
+import { BarGraph } from "../../entities/graphs/BarGraph";
+import { BarHeader } from "../../widgets/headers";
+import {useAuth} from "../../app/context/auth-context";
 
 const data = [
   {
@@ -10,33 +12,42 @@ const data = [
   {
     name: 'SecondPoint',
     alfa: 20,
-    beta: 40
+    beta: 3
   }
-]:
+]
 
 function OEE() {
-  return <Grid container spacing={2}>
-    <Grid item xs={6}>
-      <BarGraph data={data}/>
-    </Grid>
-    <Grid item xs={6}>
-      <BarGraph data={data}/>
-    </Grid>
-    <Grid item xs={6}>
-      <BarGraph data={data}/>
-    </Grid>
-    <Grid item xs={6}>
-      <BarGraph data={data}/>
-    </Grid>
-  </Grid>
+  const {user, login, logout}= useAuth()
+  if (user) {
+    return <Box>
+      <BarHeader name="OEE" titles={['Годовой обзор по неделям', 'Годовой обзор по месяцам']} />
+      <Grid container spacing={2} p={5}>
+        <Grid item xs={6}>
+          <BarGraph data={data}/>
+        </Grid>
+        <Grid item xs={6}>
+          <BarGraph data={data}/>
+        </Grid>
+        <Grid item xs={6}>
+          <BarGraph data={data}/>
+        </Grid>
+        <Grid item xs={6}>
+          <BarGraph data={data}/>
+        </Grid>
+        <Grid item xs={6}>
+          <BarGraph data={data}/>
+        </Grid>
+        <Grid item xs={6}>
+          <BarGraph data={data}/>
+        </Grid>
+      </Grid>
+    </Box>
+  } else {
+    return <Typography>не аутентифицирован</Typography>
+  }
 
 
-  // return <Box sx={{
-  //   display: 'flex'
-  // }}>
-  //   <BarGraph data={data}/>
-  //   <BarGraph data={data}/>
-  // </Box>
+
 }
 
 export { OEE }

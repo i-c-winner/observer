@@ -12,8 +12,8 @@ function BarGraph (props: IProps) {
   <YAxis />
   <Tooltip />
   <Legend />
- <Bar dataKey='alfa' fill={'red'} />
- <Bar dataKey='beta' fill={'green'} />
+ <Bar barSize={10} dataKey='alfa' fill={'red'} />
+ <Bar barSize={10} dataKey='beta' fill={'green'} />
     </BarChart>
 }
 export {BarGraph}
