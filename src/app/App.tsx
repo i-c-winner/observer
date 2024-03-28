@@ -1,17 +1,12 @@
-import {OEE} from "../pages/graphs";
-import { Workering } from "../pages/graphs/Workering";
+import { OEE } from "../pages/graphs";
+import { Workering } from "../pages/graphs";
 import { AuthProvider } from "./context/auth-context";
+import {router} from "./router/router";
+import {RouterProvider} from "react-router-dom";
 
 
-function App () {
-  return  <AuthProvider>
-
-      <OEE />
-      <Workering />
-
-  </AuthProvider>
-
-
+function App() {
+  return <RouterProvider router={router} />
 }
 
-export {App}
+export { App }

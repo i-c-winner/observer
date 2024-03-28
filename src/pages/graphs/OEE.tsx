@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { BarGraph } from "../../entities/graphs/BarGraph";
 import { BarHeader } from "../../widgets/headers";
-import {useAuth} from "../../app/context/auth-context";
+import { useAuth } from "../../app/context/auth-context";
 
 const data = [
   {
@@ -17,10 +17,10 @@ const data = [
 ]
 
 function OEE() {
-  const {user, login, logout}= useAuth()
+  const {user} = useAuth()
   if (user) {
     return <Box>
-      <BarHeader name="OEE" titles={['Годовой обзор по неделям', 'Годовой обзор по месяцам']} />
+      <BarHeader name="OEE" titles={['Годовой обзор по неделям', 'Годовой обзор по месяцам']}/>
       <Grid container spacing={2} p={5}>
         <Grid item xs={6}>
           <BarGraph data={data}/>
@@ -45,7 +45,6 @@ function OEE() {
   } else {
     return <Typography>не аутентифицирован</Typography>
   }
-
 
 
 }
