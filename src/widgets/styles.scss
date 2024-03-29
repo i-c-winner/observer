@@ -4,11 +4,16 @@
     height: 100px;
     background-size: cover;
     background-image: url("../shared/assets/image/logo.png");
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
+
 .bar-graphe {
   &__name {
     padding: 5px 10px;
-    background-color: red;
+    background-color: blue;
   }
 }
