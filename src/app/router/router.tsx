@@ -1,18 +1,23 @@
 import { createBrowserRouter } from "react-router-dom";
-import { OEE, Workering } from "../../pages/graphs";
+import { OEE, Productivity } from "../../pages/graphs";
 import { Loginin } from "../../pages/Loginin";
+import {EnterPage} from "../../pages/EnterPage";
 
 const router = createBrowserRouter([{
   path: '/',
   element: <Loginin/>
 },
   {
+    path: '/enter',
+    element: <EnterPage />
+  },
+  {
     path: '/oee',
     element: <OEE/>
   },
   {
-    path: '/workering',
-    element: <Workering/>
+    path: '/productivity',
+    element: <Productivity/>
   }
 ])
 

@@ -31,7 +31,7 @@ const data = [
   }
 ]
 
-function Workering() {
+function Productivity() {
   return <Box>
     <BarHeader name="Трудоёмкость" titles={['Годовой обзор по неделям', 'Месячный обзор по дням']}/>
     <Grid container spacing={2} p={5}>
@@ -69,4 +69,4 @@ function Workering() {
   </Box>
 }
 
-export { Workering }
+export { Productivity }
