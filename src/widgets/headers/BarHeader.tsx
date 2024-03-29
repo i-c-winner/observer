@@ -1,8 +1,11 @@
 import { IBarHeader } from "../types";
 import { Box, Typography } from "@mui/material";
+import HomeIcon from '@mui/icons-material/Home';
+import {useNavigate} from "react-router-dom";
 import '../styles.scss'
 
 function BarHeader(props: IBarHeader) {
+  const navigate=useNavigate()
   return <Box
     sx={{
       display: "flex",
@@ -10,8 +13,9 @@ function BarHeader(props: IBarHeader) {
       alignItems: "center"
     }}
   >
+    <HomeIcon onClick={()=>{navigate('/enter')}} color='warning' />
     <h3>{props.name}</h3>
-    {props.titles.map((title) => <Typography classes={{
+    {props.titles.map((title) => <Typography key={title} classes={{
       root: 'bar-graphe bar-graphe__name'
     }} color='white'>{title}</Typography>)}
     <div

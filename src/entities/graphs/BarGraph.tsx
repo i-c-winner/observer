@@ -6,7 +6,7 @@ interface IProps {
 }
 
 function BarGraph (props: IProps) {
-  return <BarChart width={730} height={250} data={props.data}>
+  return <BarChart width={700} height={250} data={props.data}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis dataKey="name" />
   <YAxis />
