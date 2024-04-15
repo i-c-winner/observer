@@ -1,5 +1,5 @@
 type TBarGraphData = {
-  [key: string]: number|string
+  [key: string]: number| string
 }[]
 
 export type { TBarGraphData }

@@ -20,7 +20,7 @@ function EnterPage() {
         margin: '0 auto',
         height: '20vh'
       }}>
-        <Button onClick={()=>{navigate('/oee')}} variant='contained'>OEE</Button>
+        <Button onClick={()=>{navigate('/oee')}} variant='contained'>Годовой отчет</Button>
         <Button onClick={()=>{navigate('/productivity')}} variant='contained'>Продуктивность</Button>
         <Button onClick={()=>{}} variant='contained'>Трудоемкость</Button>
         <Button onClick={()=>{}} variant='contained'>Статус заказов</Button>
