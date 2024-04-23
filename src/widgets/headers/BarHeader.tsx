@@ -10,18 +10,42 @@ function BarHeader(props: IBarHeader) {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      background: "#2A4858",
+
     }}
   >
-    <h3>{props.name}</h3>
-    {props.titles.map((title) => <Typography key={title} classes={{
-      root: 'bar-graphe bar-graphe__name'
-    }} color='white'>{title}</Typography>)}
+
+    <Box sx={{
+      width: '100vw'
+    }}>
+      <Box sx={{
+        height: '150px',
+        width: "100%",
+        background: "#2A4858",
+
+      }}>
+        <Typography sx={{
+          fontSize: "1.5rem",
+          padding: "25px"
+        }} color="white">{props.person}</Typography>
+        <Typography sx={{
+          margin: "0 10px 0 auto",
+          width: '200px'
+        }} color="white">{props.title}</Typography>
+
+      </Box>
+      <Box
+        sx={{height: '100px'}}
+      >
+
+
+      </Box>
+    </Box>
     <div onClick={() => {
       navigate('/enter')
     }}
-      className='logo__bar logo__bar_header'
+         className='logo__bar logo__bar_bar-header'
     ></div>
+
 
   </Box>
 

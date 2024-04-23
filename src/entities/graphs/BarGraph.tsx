@@ -20,7 +20,7 @@ function BarGraph(props: IProps) {
   }
 
   function getHeight() {
-    return (window.innerHeight - 700) / 3
+    return (window.innerHeight - 650) / 3
   }
 
   return <BarChart width={getWidth()} height={getHeight()} data={props.data}>

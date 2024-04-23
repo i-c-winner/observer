@@ -1,6 +1,6 @@
 interface IBarHeader {
-  name: string,
-  titles: string[],
+  person: string,
+  title: string,
 
 }
 

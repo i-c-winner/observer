@@ -2,7 +2,7 @@ import { useAuth } from "../app/context/auth-context";
 import { Box, Button, TextField, Typography } from "@mui/material";
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { BarHeader } from "../widgets/headers";
+import {Header} from "../widgets/headers/Header";
 import "./styles.scss"
 
 function Loginin() {
@@ -30,7 +30,7 @@ function Loginin() {
 
   }
   return <Box>
-    <BarHeader name={''} titles={[]}/>
+    <Header />
     <Box
       sx={{
         paddingTop: '150px',

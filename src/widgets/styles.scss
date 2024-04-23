@@ -1,13 +1,18 @@
 .logo__bar {
-  &_header {
-    width: 250px;
-    height: 250px;
-    background-size: cover;
-    background-image: url("../shared/assets/image/logo.png");
 
-    &:hover {
-      cursor: pointer;
-    }
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("../shared/assets/image/logo.png");
+
+  &:hover {
+    cursor: pointer;
+  }
+  &_header {
+
+  }
+  &_bar-header{
+    background-position: top;
   }
 }
 

@@ -47,7 +47,7 @@ function OEE() {
       justifyContent: "space-between",
       height: "100vh"
     }}>
-      <BarHeader name="" titles={[]}/>
+      <BarHeader person="Пользователь: исполнительный директор" title="EEO"/>
      <Grid container spacing={2}>
       {keys.map((key: any) => {
         if (key !== 'Month') {

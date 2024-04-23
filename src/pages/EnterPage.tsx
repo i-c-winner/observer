@@ -1,9 +1,9 @@
-import { BarHeader } from "../widgets/headers";
 import { Box, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { styled } from "@mui/material";
 import {useAuth} from "../app/context/auth-context";
 import { Footer } from "../widgets/footer/Footer";
+import {Header} from "../widgets/headers/Header";
 
 function EnterPage() {
   const {logout}=useAuth()
@@ -23,7 +23,7 @@ function exitClick() {
     justifyContent: "space-between",
     flexFlow: "column"
   }}>
-    <BarHeader name='' titles={[]}/>
+    <Header />
 
     <Box sx={{
       display: 'flex',
