@@ -16,16 +16,20 @@ function BarGraph(props: IProps) {
   }
 
   function getWidth() {
-    return window.innerWidth
+    return (window.innerWidth-50) / 2
   }
 
-  return <BarChart width={getWidth()} height={250} data={props.data}>
+  function getHeight() {
+    return (window.innerHeight - 700) / 3
+  }
+
+  return <BarChart width={getWidth()} height={getHeight()} data={props.data}>
     <CartesianGrid strokeDasharray="3 3"/>
     <XAxis dataKey="month"/>
     <YAxis/>
     <Tooltip/>
     {/*<Legend/>*/}
-    <Bar  barSize={20} dataKey='value' fill='red'/>
+    <Bar barSize={20} dataKey='value' fill='red'/>
   </BarChart>
 }
 

@@ -8,8 +8,9 @@ function BarHeader(props: IBarHeader) {
   return <Box
     sx={{
       display: "flex",
-      justifyContent: "space-around",
-      alignItems: "center"
+      justifyContent: "space-between",
+      alignItems: "center",
+      background: "#2A4858",
     }}
   >
     <h3>{props.name}</h3>

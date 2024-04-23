@@ -6,6 +6,7 @@ import february from '../../shared/assets/data/february.json'
 import january from '../../shared/assets/data/january.json'
 import march from '../../shared/assets/data/march.json'
 import monthlyJSON from '../../shared/assets/data/monthly.json'
+import { Footer } from "../../widgets/footer/Footer";
 
 
 // const february= JSON.parse(february)
@@ -31,34 +32,23 @@ floorData(monthlyJSON, 'Month')
 
 const keys = Object.keys(monthlyJSON[0]).filter((month) => {
   return month !== 'Mounth'
-})
+}).slice(0, 7)
 
 const data = []
-
-
-// const data = [
-//   {
-//     name: 'FirstPoint',
-//     alfa: 10,
-//     beta: 20
-//   },
-//   {
-//     name: 'SecondPoint',
-//     alfa: 20,
-//     beta: 3
-//   }
-// ]
-
-// const keys=Object.keys(data[0])
 const types = Object.keys(monthlyJSON[0])
 
 
 function OEE() {
   const {user} = useAuth()
   if (true) {
-    return <Box>
-      <BarHeader name="Годовой обзор" titles={[]}/>
-
+    return <Box sx={{
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-between",
+      height: "100vh"
+    }}>
+      <BarHeader name="" titles={[]}/>
+     <Grid container spacing={2}>
       {keys.map((key: any) => {
         if (key !== 'Month') {
           const values = monthlyJSON.reduce((accum: any, month: any) => {
@@ -70,24 +60,18 @@ function OEE() {
             return accum
           }, [])
           console.log(values)
-          return <Box>
+          return <Grid item xs={6}>
             <h2>{key}</h2>
             <BarGraph data={values}/>
-          </Box>
+          </Grid>
         }
-
-      })
-      }
+      })}
+    </Grid>
+      <Footer />
     </Box>
-
-
   } else {
     return <Typography>не аутентифицирован</Typography>
   }
+}
 
-
-  }
-
-  export {
-    OEE
-  }
+export { OEE }

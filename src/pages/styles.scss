@@ -1,0 +1,24 @@
+.img {
+  &_exit {
+    width: 120px;
+    height: 120px;
+    background-image: url("../shared/assets/image/exit.png");
+    position: relative;
+    left: 80%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &_home {
+    width: 115px;
+    height: 115px;
+    background-image: url("../shared/assets/image/home.png");
+
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
