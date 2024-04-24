@@ -43,7 +43,7 @@ function exitClick() {
       }} variant='contained'>Продуктивность</Button>
       <Button style={styleInput} onClick={() => {
       }} variant='contained'>Трудоемкость</Button>
-      <Button abled={true} style={styleInput} onClick={() => {
+      <Button  style={styleInput} onClick={() => {
       }} variant='contained'>Статус заказов</Button>
     </Box>
     <Footer />
