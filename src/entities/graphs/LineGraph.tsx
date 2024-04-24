@@ -16,7 +16,7 @@ function LineGraph(props: IProps) {
     <YAxis/>
     <Tooltip/>
     <Legend/>
-    <Line type="Function" dataKey="value" stroke="#8884d8"/>
+    <Line dataKey="value" stroke="#8884d8"/>
   </LineChart>
 }
 

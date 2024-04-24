@@ -1,4 +1,4 @@
-function getData(data) {
+function getData(data:{[key: string]:string}) {
   function floorData(data: any, type: string) {
     data.forEach((day: any) => {
       for (const key in day) {
