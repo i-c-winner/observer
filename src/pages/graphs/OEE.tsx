@@ -7,35 +7,7 @@ import january from '../../shared/assets/data/january.json'
 import march from '../../shared/assets/data/march.json'
 import monthlyJSON from '../../shared/assets/data/monthly.json'
 import { Footer } from "../../widgets/footer/Footer";
-
-
-// const february= JSON.parse(february)
-// const january=JSON.parse(january)
-// const march=JSON.parse(march)
-// const monthly=JSON.parse(monthlyJSON)
-
-
-function floorData(data: any, type: string) {
-  data.forEach((day: any) => {
-    for (const key in day) {
-      if (key !== type) {
-        day[key] = Math.floor(day[key])
-      }
-    }
-  })
-}
-
-floorData(january, 'Day')
-floorData(february, 'Day')
-floorData(march, 'Day')
-floorData(monthlyJSON, 'Month')
-
-const keys = Object.keys(monthlyJSON[0]).filter((month) => {
-  return month !== 'Mounth'
-}).slice(0, 7)
-
-const data = []
-const types = Object.keys(monthlyJSON[0])
+import { getData } from "../functions/getData";
 
 
 function OEE() {
@@ -45,14 +17,14 @@ function OEE() {
       display: "flex",
       flexFlow: "column",
       justifyContent: "space-between",
-      height: "100vh"
+      height: "100vh",
     }}>
       <BarHeader person="Пользователь: исполнительный директор" title="EEO"/>
-     <Grid container spacing={2}>
-      {keys.map((key: any) => {
+     <Grid  container spacing={2}>
+
+      {getData(monthlyJSON).slice(0,7).map((key: any) => {
         if (key !== 'Month') {
           const values = monthlyJSON.reduce((accum: any, month: any) => {
-
             accum.push({
               month: month.Month,
               value: month[key]

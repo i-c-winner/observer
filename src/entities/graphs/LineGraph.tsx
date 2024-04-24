@@ -1,20 +1,22 @@
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 import {TBarGraphData} from "../types";
 interface IProps {
-  data: TBarGraphData
-}
+  data: TBarGraphData,
+  width:()=> number,
 
+}
+function getWidth() {
+  return window.innerWidth*0.75
+}
 function LineGraph(props: IProps) {
- return  <LineChart width={730} height={250} data={props.data}
+ return  <LineChart width={props.width()} height={250} data={props.data}
              margin={{top: 5, right: 30, left: 20, bottom: 5}}>
     <CartesianGrid strokeDasharray="3 3"/>
-    <XAxis dataKey="name"/>
+    <XAxis dataKey="month"/>
     <YAxis/>
     <Tooltip/>
     <Legend/>
-    <Line type="monotone" dataKey="alfa" stroke="#8884d8"/>
-    <Line type="monotone" dataKey="beta" stroke="#82ca9d"/>
-    <Line type="monotone" dataKey="charly" stroke="blue"/>
+    <Line type="Function" dataKey="value" stroke="#8884d8"/>
   </LineChart>
 }
 

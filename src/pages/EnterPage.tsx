@@ -38,7 +38,7 @@ function exitClick() {
       <Button style={styleInput} onClick={() => {
         navigate('/oee')
       }} variant='contained'>Годовой отчет</Button>
-      <Button  disabled={true} style={styleInput} onClick={() => {
+      <Button  style={styleInput} onClick={() => {
         navigate('/productivity')
       }} variant='contained'>Продуктивность</Button>
       <Button disabled={true} style={styleInput} onClick={() => {

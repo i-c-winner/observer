@@ -1,71 +1,48 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import { BarHeader } from "../../widgets/headers";
 import { LineGraph } from "../../entities/graphs/LineGraph";
 import './styles.scss'
-
-
-const data = [
-  {
-    name: 'FirstPoint',
-    alfa: 10,
-    beta: 7,
-    charly: 12
-  },
-  {
-    name: 'SecondPoint',
-    alfa: 20,
-    beta: 3,
-    charly: 8
-  },
-  {
-    name: 'SecondPoint',
-    alfa: 18,
-    beta: 8,
-    charly: 12
-  },
-  {
-    name: 'SecondPoint',
-    alfa: 11,
-    beta: 9,
-    charly: 18
-  }
-]
+import montlyJson from '../../shared/assets/data/monthly.json'
+import { getData } from "../functions/getData";
+import monthlyJSON from "../../shared/assets/data/monthly.json";
+import { Footer } from "../../widgets/footer/Footer";
 
 function Productivity() {
   return <Box>
-    <BarHeader name="Трудоёмкость" titles={['Годовой обзор по неделям', 'Месячный обзор по дням']}/>
-    <Grid container spacing={2} p={5}>
-      <Grid classes={{
-        root: 'line-graph'
-      }} item xs={6}>
-        <LineGraph data={data}/>
+    <BarHeader person="Пользователь: исполнительный деректор" title="Производительность"/>
+    <Box sx={{
+      background: "#e9e9e9",
+      width: '80%',
+      padding: "50px",
+      boxSizing: 'border-box',
+      marginLeft: "150px"
+    }}>
+      <Typography >График склада полуфобрикатов и готовой продукции</Typography>
+      <Grid sx={
+        {
+          background: 'white',
+          margin: '0',
+
+        }
+      } container spacing={2} p={5}>
+        {getData(monthlyJSON).slice(0, 2).map((key: any) => {
+          if (key !== 'Month') {
+            const values = monthlyJSON.reduce((accum: any, month: any) => {
+              accum.push({
+                month: month.Month,
+                value: month[key]
+              })
+              return accum
+            }, [])
+            return <Grid key={key} item xs={6}>
+              <h2>{key}</h2>
+              <LineGraph width={() => window.innerWidth * 0.8 - 200} data={values}/>
+            </Grid>
+          }
+        })}
       </Grid>
-      <Grid classes={{
-        root: 'line-graph'
-      }} item xs={6}>
-        <LineGraph data={data}/>
-      </Grid>
-      <Grid classes={{
-        root: 'line-graph'
-      }} item xs={6}>
-        <LineGraph data={data}/>
-      </Grid>
-      <Grid classes={{
-        root: 'line-graph'
-      }} item xs={6}>
-        <LineGraph data={data}/>
-      </Grid>
-      <Grid classes={{
-        root: 'line-graph'
-      }} item xs={6}>
-        <LineGraph data={data}/>
-      </Grid>
-      <Grid classes={{
-        root: 'line-graph'
-      }} item xs={6}>
-        <LineGraph data={data}/>
-      </Grid>
-    </Grid>
+    </Box>
+    <Footer />
   </Box>
 }
 

@@ -9,8 +9,6 @@ interface IProps {
 }
 
 function BarGraph(props: IProps) {
-  console.log(props.data)
-
   function getColor() {
     return randomColor()
   }
