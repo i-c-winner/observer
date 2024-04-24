@@ -41,9 +41,9 @@ function exitClick() {
       <Button  style={styleInput} onClick={() => {
         navigate('/productivity')
       }} variant='contained'>Продуктивность</Button>
-      <Button disabled={true} style={styleInput} onClick={() => {
+      <Button style={styleInput} onClick={() => {
       }} variant='contained'>Трудоемкость</Button>
-      <Button disabled={true} style={styleInput} onClick={() => {
+      <Button abled={true} style={styleInput} onClick={() => {
       }} variant='contained'>Статус заказов</Button>
     </Box>
     <Footer />
