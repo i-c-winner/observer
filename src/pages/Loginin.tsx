@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {Header} from "../widgets/headers/Header";
 import "./styles.scss"
+import { MyButton } from "../widgets/UI/Button/MyButton";
 
 function Loginin() {
   const navigate = useNavigate()
@@ -74,7 +75,17 @@ function Loginin() {
           alignSelf: "flex-end",
           width: '200px'
         }}>
-          <Button variant={"contained"} color={"primary"} onClick={loginin}>Вход в систему</Button>
+          <MyButton  buttonProps={{
+            backgroundColor: '#dadada',
+            color: '#000',
+            '&:hover': {
+              color: '#fff'
+            }
+          }}
+          wrapperProps={{
+            onClick: loginin
+          }}
+          />
         </Box>
 
       </Box>
