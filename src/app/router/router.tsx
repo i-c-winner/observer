@@ -1,24 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
 import { OEE, Productivity } from "../../pages/graphs";
 import { Loginin } from "../../pages/Loginin";
-import {EnterPage} from "../../pages/EnterPage";
+import { EnterPage } from "../../pages/EnterPage";
+import { Graphs } from "../../pages/Graphs";
 
 const router = createBrowserRouter([{
-  path: '/',
+  path: "/",
   element: <Loginin/>
 },
   {
-    path: '/enter',
-    element: <EnterPage />
+    path: "/enter",
+    element: <EnterPage/>
   },
   {
-    path: '/oee',
-    element: <OEE/>
+    path: "/:type",
+    element: <Graphs />
   },
-  {
-    path: '/productivity',
-    element: <Productivity/>
-  }
-])
+]);
 
-export { router }
+export { router };

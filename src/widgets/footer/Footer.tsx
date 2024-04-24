@@ -19,12 +19,12 @@ function Footer() {
 
   return <Box sx={{
     width: "100%",
-    height: "150px",
+    height: "100px",
     display: "flex",
   }
   }>
-    <div onClick={goHome} className="img img_home"></div>
-    <div onClick={logoutClick} className="img img_exit"></div>
+    <div onClick={goHome} className="img img_footer img_footer_home"></div>
+    <div onClick={logoutClick} className="img img_footer img_footer_exit"></div>
 
   </Box>
 }

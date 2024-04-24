@@ -40,14 +40,19 @@ function EnterPage() {
     }}>
       <Button style={styleInput} onClick={() => {
         navigate("/oee");
-      }} variant="contained">Годовой отчет</Button>
+      }} variant="contained">OEE</Button>
       <Button style={styleInput} onClick={() => {
-        navigate("/productivity");
+        navigate("/quota");
+      }} variant="contained">Фактические квоты</Button>
+      <Button style={styleInput} onClick={() => {
+        navigate('/productivity')
       }} variant="contained">Продуктивность</Button>
       <Button style={styleInput} onClick={() => {
-      }} variant="contained">Трудоемкость</Button>
-      <Button style={styleInput} onClick={() => {
+        navigate('/status')
       }} variant="contained">Статус заказов</Button>
+      <Button style={styleInput} onClick={() => {
+        navigate('/complexity')
+      }} variant="contained">Трудоёмкость</Button>
     </Box>
     <Footer/>
   </Box>;

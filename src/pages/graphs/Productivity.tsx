@@ -1,14 +1,18 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { BarHeader } from "../../widgets/headers";
 import { LineGraph } from "../../entities/graphs/LineGraph";
-import './styles.scss'
 import montlyJson from '../../shared/assets/data/monthly.json'
 import { getData } from "../functions/getData";
 import monthlyJSON from "../../shared/assets/data/monthly.json";
 import { Footer } from "../../widgets/footer/Footer";
 
 function Productivity() {
-  return <Box>
+  return <Box sx={{
+    height: '100vh',
+    display: 'flex',
+    flexFlow: 'column',
+    justifyContent: 'space-between'
+  }}>
     <BarHeader person="Пользователь: исполнительный деректор" title="Производительность"/>
     <Box sx={{
       background: "#e9e9e9",
