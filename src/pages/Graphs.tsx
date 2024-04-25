@@ -16,15 +16,14 @@ import Stack from "@mui/material/Stack";
 import { MyButton } from "../widgets/UI/Button/MyButton";
 import { Oee } from "../widgets/graphs/Oee";
 
+type TType = "oee" | "quota" | "productivity" | "status" | "complexity"
+
 function Graphs() {
-  const {type} = useParams() as "oee" | "quota" | "productivity" | "status" | "complexity";
+  const {type}: any= useParams();
   const [selectedtype, setSelectedtype] = useState<"days" | "weeks" | "month">("days");
 
-  function selecting(event) {
-    console.log(event);
-  }
 
-  function getStyles(type) {
+  function getStyles(type: "days" | "weeks" | "month") {
     const styles = {
       width: "200px",
       onClick: () => {
@@ -66,8 +65,8 @@ function Graphs() {
       flexGrow: "1",
       display: "flex"
     }}>
-        <Oee type={selectedtype}/>
-        <Box
+      <Oee type={selectedtype}/>
+      <Box
         sx={{
           width: "20%",
           border: "1px solid black",
@@ -75,12 +74,12 @@ function Graphs() {
           boxSizing: "border-box",
           padding: "10px"
         }}
-        >
-          <Typography>Дополнительная информация</Typography>
-        </Box>
+      >
+        <Typography>Дополнительная информация</Typography>
+      </Box>
     </Box>
     <Footer/>
-  </Box>
+  </Box>;
 }
 
 export { Graphs };

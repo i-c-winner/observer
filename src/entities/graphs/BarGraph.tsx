@@ -5,7 +5,7 @@ import randomColor from 'randomcolor'
 
 
 
-function BarGraph(props) {
+function BarGraph(props: any) {
   console.log(props.data)
   function getColor() {
     return randomColor()

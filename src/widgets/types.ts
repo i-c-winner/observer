@@ -3,5 +3,6 @@ interface IBarHeader {
   title: string,
 
 }
+interface IDatesItem {[key: string]: string|number}
 
-export type {IBarHeader}
+export type {IBarHeader, IDatesItem}

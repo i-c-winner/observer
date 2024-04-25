@@ -3,8 +3,9 @@ import { Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "../styles.scss";
 
-function BarHeader(props: { type: string }) {
+function BarHeader(props: { type: 'oee'| 'quota'| 'productivity'| 'status'| 'complexity'|undefined }) {
   const navigate = useNavigate();
+  const typePages: 'oee'| 'quota'| 'productivity'| 'status'| 'complexity'=props.type??"oee"
 
   const pagesTypes = {
     oee: "OEE",
@@ -35,7 +36,7 @@ function BarHeader(props: { type: string }) {
         <Typography style={{textTransform: "uppercase"}} sx={{
           fontSize: "3rem",
           padding: "25px"
-        }} color="white">{pagesTypes[props.type]}</Typography>
+        }} color="white">{pagesTypes[typePages]}</Typography>
 
       </Box>
     </Box>

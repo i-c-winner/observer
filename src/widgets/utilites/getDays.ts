@@ -1,14 +1,15 @@
 import  days  from "../../shared/assets/data/days.json";
+import { IDatesItem } from "../types";
 
 
 function getDays() {
-  const FTarget = [];
-  const FOee = [];
-  const TTarget = [];
-  const TOee = [];
-  const ATarget = [];
-  const AOee = [];
-  days.map((element, index) => {
+  const FTarget: IDatesItem[] = [];
+  const FOee: IDatesItem[]  = [];
+  const TTarget: IDatesItem[]  = [];
+  const TOee: IDatesItem[]  = [];
+  const ATarget: IDatesItem[]  = [];
+  const AOee: IDatesItem[]  = [];
+  days.map((element: IDatesItem, index: number) => {
     FTarget.push({week: index+1, value: element["F Target"]});
     AOee.push({week: index+1, value: element["F OEE,%"]});
     ATarget.push({week: index+1, value: element["T Target"]});
