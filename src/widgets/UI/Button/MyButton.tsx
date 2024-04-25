@@ -10,7 +10,6 @@ function MyButton(props: {
   actions?: { [key: string]: any },
   wrapperProps?: { [key: string]: any }
 }) {
-  console.log(props.buttonProps)
   const ButtonStyled = styled(Button)(() => {
     return {
       ...props.buttonProps,
