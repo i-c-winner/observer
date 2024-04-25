@@ -2,40 +2,40 @@ import { useAuth } from "../app/context/auth-context";
 import { Box, Button, TextField, Typography } from "@mui/material";
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import {Header} from "../widgets/headers/Header";
-import "./styles.scss"
+import { Header } from "../widgets/headers/Header";
+import "./styles.scss";
 import { MyButton } from "../widgets/UI/Button/MyButton";
 
 function Loginin() {
-  const navigate = useNavigate()
-  const {login} = useAuth()
-  const refName = useRef<HTMLInputElement>()
-  const refPassword = useRef<HTMLInputElement>()
+  const navigate = useNavigate();
+  const {login} = useAuth();
+  const refName = useRef<HTMLInputElement>();
+  const refPassword = useRef<HTMLInputElement>();
 
   function validatorUser(user: string | undefined) {
-    return typeof user === 'string' && user !== ''
+    return typeof user === "string" && user !== "";
   }
 
   function loginin() {
     if (validatorUser(refName.current?.value)) {
-      login(refName.current?.value)
-      navigate('/enter')
+      login(refName.current?.value);
+      navigate("/enter");
     }
 
   }
 
   const styleInput = {
     marginLeft: "50px",
-    background: 'white',
+    background: "white",
     width: "300px"
 
-  }
+  };
   return <Box>
-    <Header />
+    <Header/>
     <Box
       sx={{
-        paddingTop: '150px',
-        textAlign: 'center'
+        paddingTop: "150px",
+        textAlign: "center"
       }}
     >
       <Box sx={{
@@ -50,18 +50,18 @@ function Loginin() {
         border: "1px solid black",
         justifyContent: "space-between"
       }}><Box sx={{
-        display: 'flex',
+        display: "flex",
         justifyContent: "flex-end",
-        width: '100%',
+        width: "100%",
         fontSize: "2rem"
       }}>
         <Typography sx={{flexGrow: "1", alignContent: "center", fontSize: "1.5rem"}}>Пользователь</Typography>
         <TextField sx={styleInput} label="Пользователь" inputRef={refName}/>
       </Box>
         <Box sx={{
-          display: 'flex',
+          display: "flex",
           justifyContent: "flex-end",
-          width: '100%',
+          width: "100%",
           fontSize: "2rem"
         }}>
           <Typography sx={{
@@ -73,18 +73,19 @@ function Loginin() {
         </Box>
         <Box sx={{
           alignSelf: "flex-end",
-          width: '200px'
         }}>
-          <MyButton  buttonProps={{
-            backgroundColor: '#dadada',
-            color: '#000',
-            '&:hover': {
-              color: '#fff'
-            }
+          <MyButton buttonProps={{
+            backgroundColor: "#dadada",
+            color: "#000",
+            "&:hover": {
+              color: "#fff"
+            },
           }}
-          wrapperProps={{
-            onClick: loginin
-          }}
+                    wrapperProps={{
+                      onClick: loginin,
+                      text: "Войти"
+                    }}
+
           />
         </Box>
 
@@ -92,9 +93,9 @@ function Loginin() {
 
     </Box>
 
-  </Box>
+  </Box>;
 
 
 }
 
-export { Loginin }
+export { Loginin };

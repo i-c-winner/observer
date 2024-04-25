@@ -7,15 +7,19 @@ import {Theme} from "@mui/material/styles";
 
 function MyButton(props: {
   buttonProps?: { [key: string]: any },
+  actions?: { [key: string]: any },
   wrapperProps?: { [key: string]: any }
 }) {
+  console.log(props.buttonProps)
   const ButtonStyled = styled(Button)(() => {
-    return props?.buttonProps;
+    return {
+      ...props.buttonProps,
+      onClick:()=>{console.log('click')}
+    }
   });
+
   return (
-    <Stack spacing={2} direction="row">
-      <ButtonStyled variant="contained" {...props.wrapperProps}>Custom CSS</ButtonStyled>
-    </Stack>
+      <ButtonStyled  onClick={props.actions?.click} variant="contained" {...props.wrapperProps}>{props.wrapperProps?.text}</ButtonStyled>
   );
 }
 

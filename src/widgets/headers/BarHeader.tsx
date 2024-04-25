@@ -31,7 +31,6 @@ function BarHeader(props: { type: string }) {
         height: "100px",
         width: "100%",
         background: "#2A4858",
-
       }}>
         <Typography style={{textTransform: "uppercase"}} sx={{
           fontSize: "3rem",
