@@ -9,7 +9,7 @@ import {
   FormControl,
   FormLabel,
   FormControlLabel,
-  Radio
+  Radio,
 } from "@mui/material";
 import { useParams } from "react-router-dom";
 import Stack from "@mui/material/Stack";
@@ -18,7 +18,7 @@ import { Oee } from "../widgets/graphs/Oee";
 
 function Graphs() {
   const {type} = useParams() as "oee" | "quota" | "productivity" | "status" | "complexity";
-  const [selectedtype, setSelectedtype] = useState<"days" | "weeks" | "months">("days");
+  const [selectedtype, setSelectedtype] = useState<"days" | "weeks" | "month">("days");
 
   function selecting(event) {
     console.log(event);
@@ -58,19 +58,29 @@ function Graphs() {
                   buttonProps={getStyles("days")}/>
         <MyButton wrapperProps={{text: "Неделям"}} actions={{click: () => setSelectedtype("weeks")}}
                   buttonProps={getStyles("weeks")}/>
-        <MyButton wrapperProps={{text: "Месяцам"}} actions={{click: () => setSelectedtype("months")}}
-                  buttonProps={getStyles("months")}/>
+        <MyButton wrapperProps={{text: "Месяцам"}} actions={{click: () => setSelectedtype("month")}}
+                  buttonProps={getStyles("month")}/>
       </Stack>
     </Box>
     <Box sx={{
-      flexGrow: "1"
+      flexGrow: "1",
+      display: "flex"
     }}>
-      <Oee type={selectedtype}/>
+        <Oee type={selectedtype}/>
+        <Box
+        sx={{
+          width: "20%",
+          border: "1px solid black",
+          margin: "0 30px",
+          boxSizing: "border-box",
+          padding: "10px"
+        }}
+        >
+          <Typography>Дополнительная информация</Typography>
+        </Box>
     </Box>
-
     <Footer/>
-  </Box>;
-
+  </Box>
 }
 
 export { Graphs };
