@@ -1,6 +1,6 @@
 import { BarHeader } from "../widgets/headers";
 import { Footer } from "../widgets/footer/Footer";
-import { useState } from "react";
+import { useState, ReactNode, useEffect } from "react";
 import {
   Box,
   ButtonGroup,
@@ -15,13 +15,14 @@ import { useParams } from "react-router-dom";
 import Stack from "@mui/material/Stack";
 import { MyButton } from "../widgets/UI/Button/MyButton";
 import { Oee } from "../widgets/graphs/Oee";
+import { Quot } from "../widgets/graphs/Quots";
 
 type TType = "oee" | "quota" | "productivity" | "status" | "complexity"
 
 function Graphs() {
-  const {type}: any= useParams();
+  const {type}: any = useParams();
   const [selectedtype, setSelectedtype] = useState<"days" | "weeks" | "month">("days");
-
+  const [children, setChidren] = useState<ReactNode | null>(null);
 
   function getStyles(type: "days" | "weeks" | "month") {
     const styles = {
@@ -32,6 +33,19 @@ function Graphs() {
     };
     return type === selectedtype ? styles : {...styles, backgroundColor: "rgba(0, 0, 0, 0.2)"};
   }
+
+  useEffect(() => {
+    switch (type) {
+      case "oee":
+        setChidren(<Oee type={selectedtype}/>);
+        break;
+      case "quota":
+        setChidren(<Quot type={selectedtype}/>);
+        break;
+      default:
+        break;
+    }
+  }, [selectedtype]);
 
   return <Box sx={{
     display: "flex",
@@ -65,7 +79,8 @@ function Graphs() {
       flexGrow: "1",
       display: "flex"
     }}>
-      <Oee type={selectedtype}/>
+      {children}
+
       <Box
         sx={{
           width: "20%",
