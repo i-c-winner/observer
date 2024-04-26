@@ -1,31 +1,15 @@
-import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from "recharts";
+// import * as echarts from "echarts";
+import { Box } from "@mui/material";
+// import { useEffect } from "react";
 
-import randomColor from 'randomcolor'
 
 
+function BarGraph() {
 
-function BarGraph(props: any) {
-  console.log(props.data)
-  function getColor() {
-    return randomColor()
-  }
+  return <Box>
+    <p>bar</p>
+  </Box>
 
-  function getWidth() {
-    return (window.innerWidth*.8) / 2
-  }
-
-  function getHeight() {
-    return (window.innerHeight - 400) / 3
-  }
-
-  return <BarChart width={getWidth()} height={getHeight()} data={props.data}>
-    <CartesianGrid strokeDasharray="3 3"/>
-    <XAxis dataKey="week"/>
-    <YAxis/>
-    <Tooltip/>
-    {/*<Legend/>*/}
-    <Bar barSize={20} dataKey="value" fill='red'/>
-  </BarChart>
 }
 
 export { BarGraph }

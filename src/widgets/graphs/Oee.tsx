@@ -1,49 +1,37 @@
-import React, { Fragment } from "react";
+import React  from "react";
 import { getWeeks } from "../utilites/getWeeks";
-import { Box, Grid, Typography } from "@mui/material";
+import { Grid} from "@mui/material";
 import { BarGraph } from "../../entities/graphs/BarGraph";
 import { getMonth } from "../utilites/getMonth";
 import { getDays } from "../utilites/getDays";
 
 
+
 function Oee(props: { type: string }) {
-  if (props.type === "weeks") {
-    return <Grid container spacing={3}>
-      <React.Fragment>
-        {Object.entries(getWeeks()).map((element) => {
-          return <Grid  key={element[0]} item xs={6}>
-            <Typography ml={5}>{element[0]}</Typography>
-            <BarGraph  data={element[1]} name={element[0]}/>
-          </Grid>;
-        })};
-      </React.Fragment>;
-    </Grid>;
 
 
-  } else if (props.type === "month") {
-    return <Grid container spacing={3} >
-      <Fragment>
-        {Object.entries(getMonth()).map((element) => {
-          return <Grid key={element[0]} item xs={6}>
-            <Typography ml={5}>{element[0]}</Typography>
-            <BarGraph data={element[1]} name={element[0]}/>
-          </Grid>;
-        })};
-      </Fragment>;
-    </Grid>;
+  function getData() {
+    switch (props.type) {
+      case "days":
+        return getDays();
+      case "weeks":
+        return getWeeks();
+      default:
+        return getMonth();
+    }
   }
+
+
   return <Grid container spacing={3}>
-    <Fragment>
-      {Object.entries(getDays()).map((element) => {
+    <React.Fragment>
+      {Object.keys(getData()).map((element) => {
+
         return <Grid key={element[0]} item xs={6}>
-          <Typography ml={5}>{element[0]}</Typography>
-          <BarGraph data={element[1]} name={element[0]}/>
+          <BarGraph/>
         </Grid>;
       })};
-    </Fragment>;
+    </React.Fragment>;
   </Grid>;
-
-
 }
 
 export { Oee };

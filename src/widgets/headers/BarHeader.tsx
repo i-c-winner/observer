@@ -1,4 +1,3 @@
-import { IBarHeader } from "../types";
 import { Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "../styles.scss";

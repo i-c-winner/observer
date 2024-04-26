@@ -1,23 +1,14 @@
 import { Box, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import { styled } from "@mui/material";
-import { useAuth } from "../app/context/auth-context";
 import { Footer } from "../widgets/footer/Footer";
 import { Header } from "../widgets/headers/Header";
-import {MyButton} from "../widgets/UI/Button/MyButton";
 
 function EnterPage() {
-  const {logout} = useAuth();
   const navigate = useNavigate();
   const styleInput = {
     width: "305px",
     height: "50px"
   };
-
-  function exitClick() {
-    logout();
-    navigate("/");
-  }
 
   return <Box sx={{
     width: "100vw",

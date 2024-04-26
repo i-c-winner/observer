@@ -1,4 +1,3 @@
-import { AuthProvider } from "./context/auth-context";
 import { router } from "./router/router";
 import { RouterProvider } from "react-router-dom";
 

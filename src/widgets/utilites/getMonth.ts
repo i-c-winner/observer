@@ -1,5 +1,4 @@
 import month from "../../shared/assets/data/monthly.json";
-import weeks from "../../shared/assets/data/weeks.json";
 import {IDatesItem} from "../types";
 
 function getMonth() {

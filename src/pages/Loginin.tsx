@@ -1,6 +1,6 @@
 import { useAuth } from "../app/context/auth-context";
-import { Box, Button, TextField, Typography } from "@mui/material";
-import { useRef, useState } from "react";
+import { Box, TextField, Typography } from "@mui/material";
+import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Header } from "../widgets/headers/Header";
 import "./styles.scss";

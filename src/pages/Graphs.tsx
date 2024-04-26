@@ -3,21 +3,13 @@ import { Footer } from "../widgets/footer/Footer";
 import { useState, ReactNode, useEffect } from "react";
 import {
   Box,
-  ButtonGroup,
-  Button,
   Typography,
-  FormControl,
-  FormLabel,
-  FormControlLabel,
-  Radio,
 } from "@mui/material";
 import { useParams } from "react-router-dom";
 import Stack from "@mui/material/Stack";
 import { MyButton } from "../widgets/UI/Button/MyButton";
 import { Oee } from "../widgets/graphs/Oee";
 import { Quot } from "../widgets/graphs/Quots";
-
-type TType = "oee" | "quota" | "productivity" | "status" | "complexity"
 
 function Graphs() {
   const {type}: any = useParams();

@@ -1,7 +1,4 @@
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
-function getWidth() {
-  return window.innerWidth*0.75
-}
 function LineGraph(props: any) {
  return  <LineChart width={props.width()} height={250} data={props.data}
              margin={{top: 5, right: 30, left: 20, bottom: 5}}>
