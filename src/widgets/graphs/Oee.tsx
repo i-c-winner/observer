@@ -1,16 +1,20 @@
-import React  from "react";
 import { getWeeks } from "../utilites/getWeeks";
 import { Grid} from "@mui/material";
 import { BarGraph } from "../../entities/graphs/BarGraph";
 import { getMonth } from "../utilites/getMonth";
 import { getDays } from "../utilites/getDays";
+import { TElement } from "../types";
 
+function Oee(props: { type: "month"| "days" | "weeks" }) {
+  function getData():{
+    FTarget: any,
+    FOee: any,
+    TTarget: any,
+    TOee: any,
+    ATarget: any,
+    AOee: any
+  } {
 
-
-function Oee(props: { type: string }) {
-
-
-  function getData() {
     switch (props.type) {
       case "days":
         return getDays();
@@ -20,17 +24,13 @@ function Oee(props: { type: string }) {
         return getMonth();
     }
   }
-
-
+const data=Object.keys(getData()) as TElement[]
   return <Grid container spacing={3}>
-    <React.Fragment>
-      {Object.keys(getData()).map((element) => {
-
-        return <Grid key={element[0]} item xs={6}>
-          <BarGraph/>
+      {data.map((element) => {
+        return <Grid key={element} item xs={6}>
+          <BarGraph type={props.type} element={element}/>
         </Grid>;
       })};
-    </React.Fragment>;
   </Grid>;
 }
 

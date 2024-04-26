@@ -4,5 +4,5 @@ interface IBarHeader {
 
 }
 interface IDatesItem {[key: string]: string|number}
-
-export type {IBarHeader, IDatesItem}
+type TElement="FTarget"|"FOee"|"TTarget"| "TOee"|"ATarget"|"AOee"
+export type {IBarHeader, IDatesItem, TElement}

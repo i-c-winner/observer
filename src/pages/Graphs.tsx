@@ -12,9 +12,9 @@ import { Oee } from "../widgets/graphs/Oee";
 import { Quot } from "../widgets/graphs/Quots";
 
 function Graphs() {
-  const {type}: any = useParams();
+  const {type}: any = useParams<'oee'|"quota"| string>();
   const [selectedtype, setSelectedtype] = useState<"days" | "weeks" | "month">("days");
-  const [children, setChidren] = useState<ReactNode | null>(null);
+  const [children, setChildren] = useState<ReactNode | null>(null);
 
   function getStyles(type: "days" | "weeks" | "month") {
     const styles = {
@@ -29,10 +29,10 @@ function Graphs() {
   useEffect(() => {
     switch (type) {
       case "oee":
-        setChidren(<Oee type={selectedtype}/>);
+        setChildren(<Oee type={selectedtype}/>);
         break;
       case "quota":
-        setChidren(<Quot type={selectedtype}/>);
+        setChildren(<Quot type={selectedtype}/>);
         break;
       default:
         break;
