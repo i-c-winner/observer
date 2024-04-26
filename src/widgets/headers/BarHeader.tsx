@@ -2,14 +2,14 @@ import { Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "../styles.scss";
 
-function BarHeader(props: { type: 'oee'| 'quota'| 'productivity'| 'status'| 'complexity'|undefined }) {
+function BarHeader(props: { type: 'oee'| 'quota'| 'orders'| 'status'| 'complexity'|undefined }) {
   const navigate = useNavigate();
-  const typePages: 'oee'| 'quota'| 'productivity'| 'status'| 'complexity'=props.type??"oee"
+  const typePages: 'oee'| 'quota'| 'orders'| 'status'| 'complexity'=props.type??"oee"
 
   const pagesTypes = {
     oee: "OEE",
     quota: "Фактические квоты",
-    productivity: "Продуктивность",
+    orders: "Заказы",
     status: "Статус заказов",
     complexity: "Трудоёмкость"
   };

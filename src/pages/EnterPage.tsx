@@ -36,8 +36,8 @@ function EnterPage() {
         navigate("/quota");
       }} variant="contained">Фактические квоты</Button>
       <Button style={styleInput} onClick={() => {
-        navigate('/productivity')
-      }} variant="contained">Продуктивность</Button>
+        navigate('/orders')
+      }} variant="contained">Заказы</Button>
       <Button style={styleInput} onClick={() => {
         navigate('/status')
       }} variant="contained">Статус заказов</Button>

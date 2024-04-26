@@ -10,10 +10,11 @@ import Stack from "@mui/material/Stack";
 import { MyButton } from "../widgets/UI/Button/MyButton";
 import { Oee } from "../widgets/graphs/Oee";
 import { Quot } from "../widgets/graphs/Quots";
+import { Orders } from "../widgets/graphs/Orders";
 
 function Graphs() {
-  const {type}: any = useParams<'oee'|"quota"| string>();
-  const [selectedtype, setSelectedtype] = useState<"days" | "weeks" | "month">("days");
+  const {type}: any = useParams<"oee" | "quota" | "orders" | string>();
+  const [currentType, setCurrentType] = useState<"days" | "weeks" | "month">("days");
   const [children, setChildren] = useState<ReactNode | null>(null);
 
   function getStyles(type: "days" | "weeks" | "month") {
@@ -23,21 +24,24 @@ function Graphs() {
         console.log("MyButton");
       }
     };
-    return type === selectedtype ? styles : {...styles, backgroundColor: "rgba(0, 0, 0, 0.2)"};
+    return type === currentType ? styles : {...styles, backgroundColor: "rgba(0, 0, 0, 0.2)"};
   }
 
   useEffect(() => {
     switch (type) {
       case "oee":
-        setChildren(<Oee type={selectedtype}/>);
+        setChildren(<Oee type={currentType}/>);
         break;
       case "quota":
-        setChildren(<Quot type={selectedtype}/>);
+        setChildren(<Quot type={currentType}/>);
+        break;
+      case "orders":
+        setChildren(<Orders/>);
         break;
       default:
         break;
     }
-  }, [selectedtype]);
+  }, [currentType]);
 
   return <Box sx={{
     display: "flex",
@@ -59,11 +63,11 @@ function Graphs() {
         marginRight: "100px"
       }}>Сортировать по: </Typography>
       <Stack spacing={3} direction="row">
-        <MyButton wrapperProps={{text: "Дням"}} actions={{click: () => setSelectedtype("days")}}
+        <MyButton wrapperProps={{text: "Дням"}} actions={{click: () => setCurrentType("days")}}
                   buttonProps={getStyles("days")}/>
-        <MyButton wrapperProps={{text: "Неделям"}} actions={{click: () => setSelectedtype("weeks")}}
+        <MyButton wrapperProps={{text: "Неделям"}} actions={{click: () => setCurrentType("weeks")}}
                   buttonProps={getStyles("weeks")}/>
-        <MyButton wrapperProps={{text: "Месяцам"}} actions={{click: () => setSelectedtype("month")}}
+        <MyButton wrapperProps={{text: "Месяцам"}} actions={{click: () => setCurrentType("month")}}
                   buttonProps={getStyles("month")}/>
       </Stack>
     </Box>
@@ -73,7 +77,7 @@ function Graphs() {
     }}>
       {children}
 
-      <Box
+      {((type === "oee") || (type === "quota")) && <Box
         sx={{
           width: "20%",
           border: "1px solid black",
@@ -83,7 +87,7 @@ function Graphs() {
         }}
       >
         <Typography>Дополнительная информация</Typography>
-      </Box>
+      </Box>}
     </Box>
     <Footer/>
   </Box>;
