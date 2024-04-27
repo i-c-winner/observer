@@ -42,13 +42,6 @@ function getHeight() {
   return (window.innerHeight-322)/3
 }
   useEffect(() => {
-    if (refBox.current) {
-      refBox.current.id = "chart-container";
-      if (refBox.current.style) {
-        refBox.current.style.height = "100%";
-        refBox.current.style.width = "100%";
-      }
-    }
     const myChart = echarts.init(refBox.current, null, {
       renderer: "canvas",
       useDirtyRect: false
@@ -64,7 +57,6 @@ function getHeight() {
     height: getHeight()}
 
   } ref={refBox}>
-    <></>
   </Box>;
 
 }
