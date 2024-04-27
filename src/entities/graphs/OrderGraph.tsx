@@ -1,17 +1,19 @@
 // import { options } from "../../shared/assets/data/myData";
 import * as echarts from "echarts";
 import { Box } from "@mui/material";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MyButton } from "../../widgets/UI/Button/MyButton";
 import { EChartOption } from "echarts";
-import { MyData } from "../../shared/assets/data/myData";
+import { myData } from "../../shared/assets/data/myData";
+import { myMonth } from "../../shared/assets/data/myMonth";
 
-function OrderGraph(props: { options: typeof MyData }) {
+function OrderGraph(props: { options: { days: typeof myData, month: typeof myMonth } }) {
   const refBox = useRef<HTMLDivElement>();
-  const secondSourceData = props.options.second as EChartOption;
+  const [type, setType] = useState<"days" | "month">("days");
+  const sourceData = props.options[type] as EChartOption
 
   function clickAction() {
-    console.log("click");
+    setType(type==='days'? 'month': 'days')
   }
 
   function getHeight() {
@@ -24,13 +26,14 @@ function OrderGraph(props: { options: typeof MyData }) {
     }
 
     const myArts = echarts.init(refBox.current, null, {
-      renderer: "canvas"
+      renderer: "canvas",
+      useDirtyRect: false,
     });
-    console.log(myArts, props.options);
-    // myArts.setOption(firstSourceData);
-    myArts.setOption(secondSourceData);
-  });
-
+    myArts.setOption(sourceData);
+    return ()=>{
+      myArts.dispose()
+    }
+  },[type]);
   return <Box sx={{
     width: "100%",
     display: "flex",
@@ -56,7 +59,7 @@ function OrderGraph(props: { options: typeof MyData }) {
         text: "Сутки / Месяц",
         flexgrow: "1",
 
-      }} actions={clickAction}/>
+      }} actions={{click: clickAction}}/>
   </Box>;
 }
 

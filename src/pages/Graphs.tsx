@@ -50,7 +50,7 @@ function Graphs() {
     height: "100vh"
   }}>
     <BarHeader type={type}/>
-    <Box
+    {((type === "oee") || (type === "quota")) && <Box
       sx={{
         height: "50px",
         display: "flex",
@@ -70,7 +70,7 @@ function Graphs() {
         <MyButton wrapperProps={{text: "Месяцам"}} actions={{click: () => setCurrentType("month")}}
                   buttonProps={getStyles("month")}/>
       </Stack>
-    </Box>
+    </Box>}
     <Box sx={{
       flexGrow: "1",
       display: "flex"

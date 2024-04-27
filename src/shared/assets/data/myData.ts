@@ -1,20 +1,4 @@
-const MyData={
-  first : {
-    xAxis: {
-      type: 'category',
-      data: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
-    },
-    yAxis: {
-      type: 'value'
-    },
-    series: [
-      {
-        data: [120, 200, 150, 170, 205, 95, 110],
-        type: 'line'
-      }
-    ]
-  },
-  second : {
+const myData={
     xAxis: {
       type: 'category',
       data: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
@@ -32,6 +16,5 @@ const MyData={
         type: 'line'
       }
     ]
-  },
 }
-export {MyData}
+export {myData}

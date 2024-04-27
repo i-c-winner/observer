@@ -54,6 +54,9 @@ function getHeight() {
       useDirtyRect: false
     });
     myChart.setOption(options);
+    return ()=>{
+      myChart.dispose()
+    }
   }, [props.type]);
 
   return <Box sx={

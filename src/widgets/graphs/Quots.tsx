@@ -5,22 +5,29 @@ import { Box } from "@mui/material";
 import { useEffect, useRef } from "react";
 import * as echarts from "echarts";
 import "./styles.scss";
+import { IDatesItem } from "../types";
 
 function Quot(props: { type: "days" | "month" | "weeks" }) {
+  console.log(getData())
   const option = {
-    legend: {
-      bottom: 10,
-      left: 'center',
-      data: Object.keys(getData())
-    },
     series: [
       {
         type: 'pie',
         data: getData()
-      }
-    ]
+      },
+    ],
+    // legend: {
+    //   bottom: 10,
+    //   left: 'center',
+    //   data: getData().reduce((accum:any, element)=>{
+    //
+    //       return accum.push(element.name)
+    //
+    //
+    //   }, [])
+    // },
   }
-  function getData() {
+  function getData(): IDatesItem[] {
     switch (props.type) {
       case "days":
         return getDays().TTarget
@@ -45,6 +52,9 @@ function Quot(props: { type: "days" | "month" | "weeks" }) {
       useDirtyRect: false
     });
     myChart.setOption(option);
+    return ()=>{
+      myChart.dispose()
+    }
     },[props.type]);
   return <Box ref={refBox}>
   </Box>;
