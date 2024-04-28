@@ -1,10 +1,10 @@
 import * as echarts from "echarts";
+import { EChartsResponsiveOption } from "echarts";
 import { Box } from "@mui/material";
 import { useEffect, useRef } from "react";
 import { getDays } from "../../widgets/utilites/getDays";
 import { getMonth } from "../../widgets/utilites/getMonth";
 import { getWeeks } from "../../widgets/utilites/getWeeks";
-import { EChartsResponsiveOption } from "echarts";
 import { TElement } from "../../widgets/types";
 
 const myData = {
@@ -14,7 +14,8 @@ const myData = {
 };
 
 function BarGraph(props: { type: "month" | "days" | "weeks", element: TElement }) {
-  const refBox = useRef<HTMLDivElement>(null);
+
+  const refBox = useRef<HTMLDivElement | null>(null);
   const elements = myData[props.type][props.element] as unknown as { name: string, value: number }[];
   const names = elements.reduce<string[]>((accum, element) => {
     return [...accum, element.name];
@@ -38,25 +39,22 @@ function BarGraph(props: { type: "month" | "days" | "weeks", element: TElement }
     ]
   };
 
-function getHeight() {
-  return (window.innerHeight-322)/3
-}
   useEffect(() => {
-    const myChart = echarts.init(refBox.current, null, {
-      renderer: "canvas",
-      useDirtyRect: false
-    });
-    myChart.setOption(options);
-    return ()=>{
-      myChart.dispose()
+    if (refBox.current !== null) {
+      refBox.current!.id = "chart-container"
+      const myChart = echarts.init(refBox.current!, {}, {
+        renderer: "canvas",
+        useDirtyRect: false
+      });
+      myChart.setOption(options);
+      return () => {
+        myChart.dispose()
+      }
     }
   }, [props.type]);
 
-  return <Box sx={
-    {width: "100%",
-    height: getHeight()}
 
-  } ref={refBox}>
+  return <Box sx={{height: "180px"}} ref={refBox}>
   </Box>;
 
 }

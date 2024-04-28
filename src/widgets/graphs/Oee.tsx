@@ -4,6 +4,7 @@ import { BarGraph } from "../../entities/graphs/BarGraph";
 import { getMonth } from "../utilites/getMonth";
 import { getDays } from "../utilites/getDays";
 import { TElement } from "../types";
+import "./styles.scss"
 
 function Oee(props: { type: "month"| "days" | "weeks" }) {
   function getData():{
