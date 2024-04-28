@@ -34,7 +34,7 @@ function Loginin() {
     <Header/>
     <Box
       sx={{
-        paddingTop: "150px",
+        paddingTop: "20px",
         textAlign: "center"
       }}
     >

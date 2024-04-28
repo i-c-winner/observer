@@ -6,6 +6,7 @@ import { Header } from "../widgets/headers/Header";
 function EnterPage() {
   const navigate = useNavigate();
   const styleInput = {
+    marginTop: '10px',
     width: "305px",
     height: "50px"
   };
@@ -23,11 +24,10 @@ function EnterPage() {
       display: "flex",
       flexFlow: "column",
       width: "250px",
-      paddingTop: "10%",
+      paddingTop: "20px",
       textAlign: "center",
       justifyContent: "space-between",
       margin: "0 auto",
-      height: "30vh"
     }}>
       <Button style={styleInput} onClick={() => {
         navigate("/oee");
