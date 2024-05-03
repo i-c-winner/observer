@@ -1,8 +1,34 @@
 import { router } from "./router/router";
 import { RouterProvider } from "react-router-dom";
+import { createTheme } from "@mui/material";
+import { mainTheme } from "./theme/mainTheme";
+import { ThemeProvider } from "@mui/material";
+import React, { useState, createContext } from "react";
+
+const ThemeContext = createContext({
+  toggleTheme: () => {
+  }
+});
 
 function App() {
-  return     <RouterProvider router={router}/>
+  const [mode, setMode] = useState<"dark" | "light">("dark");
+  const colorMode = React.useMemo(() => ({
+    toggleTheme: () => {
+      setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+    }
+  }), []);
+  const theme = React.useMemo(
+    () =>
+      createTheme(mode === "dark" ? mainTheme.dark : mainTheme.light),
+    [mode]
+  );
+
+  return <ThemeContext.Provider value={colorMode}>
+    <ThemeProvider theme={theme}>
+      <RouterProvider router={router}/>
+    </ThemeProvider>;
+  </ThemeContext.Provider>;
+
 }
 
-export { App };
+export { App, ThemeContext };

@@ -1,5 +1,5 @@
 import { useAuth } from "../app/context/auth-context";
-import { Box, TextField, Typography } from "@mui/material";
+import { Box, TextField, Typography, Input } from "@mui/material";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Header } from "../widgets/headers/Header";
@@ -38,6 +38,7 @@ function Loginin() {
         textAlign: "center"
       }}
     >
+      <Input />
       <Box sx={{
         width: "690px",
         height: "300px",

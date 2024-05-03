@@ -1,4 +1,3 @@
-// import { options } from "../../shared/assets/data/myData";
 import * as echarts from "echarts";
 import { Box } from "@mui/material";
 import { useEffect, useRef, useState } from "react";
@@ -22,10 +21,10 @@ function OrderGraph(props: { options: { days: typeof myData, month: typeof myMon
 
   useEffect(() => {
     if (refBox.current) {
-      refBox.current.id = "chart-container";
+      refBox.current!.id = "chart-container";
     }
 
-    const myArts = echarts.init(refBox.current, null, {
+    const myArts = echarts.init(refBox.current!, {}, {
       renderer: "canvas",
       useDirtyRect: false,
     });

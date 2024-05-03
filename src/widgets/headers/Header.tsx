@@ -15,6 +15,7 @@ function Header() {
   >
     <div onClick={() => {
       navigate("/enter");
+
     }}
          className="logo__bar logo__bar_header"
     ></div>

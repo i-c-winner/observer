@@ -1,12 +1,31 @@
-import { createTheme } from "@mui/material";
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#223c49"
+const mainTheme ={
+  dark: {
+    palette: {
+      primary: {
+        main: "#223c49"
+      },
     },
+    components: {
+      MuiInput: {
+        styleOverrides:{
+          root: {
+            "&:after, &:before": {
+              borderBottom: "none",
+            },
+            "&:hover": {
+              "&:before": {
+                borderBottom: "none!important"
+              }
+            }
+          }
+        }
+      }
+    }
   },
+  light: {
 
-});
+  }
 
-export { theme };
+}
+
+export { mainTheme };

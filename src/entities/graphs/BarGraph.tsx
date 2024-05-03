@@ -1,6 +1,6 @@
 import * as echarts from "echarts";
 import { EChartsResponsiveOption } from "echarts";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { useEffect, useRef } from "react";
 import { getDays } from "../../widgets/utilites/getDays";
 import { getMonth } from "../../widgets/utilites/getMonth";
@@ -54,8 +54,13 @@ function BarGraph(props: { type: "month" | "days" | "weeks", element: TElement }
   }, [props.type]);
 
 
-  return <Box sx={{height: "180px"}} ref={refBox}>
-  </Box>;
+  return <Box >
+    <Typography>График: </Typography>
+    <Box sx={{height: "180px"}} ref={refBox}>
+    </Box>
+  </Box>
+
+
 
 }
 

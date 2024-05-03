@@ -6,7 +6,7 @@ import { useAuth } from "../../app/context/auth-context";
 
 function Footer() {
   const navigate = useNavigate()
-  const {logout} = useAuth()
+  const { logout } = useAuth()
 
   function goHome() {
     navigate('/enter')
