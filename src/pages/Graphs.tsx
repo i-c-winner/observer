@@ -1,6 +1,7 @@
 import { BarHeader } from "../widgets/headers";
 import { Footer } from "../widgets/footer/Footer";
-import { useState, ReactNode, useEffect } from "react";
+// @ts-ignore
+import React,  { useState, ReactNode, useEffect } from "react";
 import {
   Box,
   Typography,
@@ -29,17 +30,17 @@ function Graphs() {
 
   useEffect(() => {
     switch (type) {
-      case "oee":
-        setChildren(<Oee type={currentType}/>);
-        break;
-      case "quota":
-        setChildren(<Quot type={currentType}/>);
-        break;
-      case "orders":
-        setChildren(<Orders/>);
-        break;
-      default:
-        break;
+    case "oee":
+      setChildren(<Oee type={currentType}/>);
+      break;
+    case "quota":
+      setChildren(<Quot type={currentType}/>);
+      break;
+    case "orders":
+      setChildren(<Orders/>);
+      break;
+    default:
+      break;
     }
   }, [currentType]);
 
@@ -64,11 +65,11 @@ function Graphs() {
       }}>Сортировать по: </Typography>
       <Stack spacing={3} direction="row">
         <MyButton wrapperProps={{text: "Дням"}} actions={{click: () => setCurrentType("days")}}
-                  buttonProps={getStyles("days")}/>
+          buttonProps={getStyles("days")}/>
         <MyButton wrapperProps={{text: "Неделям"}} actions={{click: () => setCurrentType("weeks")}}
-                  buttonProps={getStyles("weeks")}/>
+          buttonProps={getStyles("weeks")}/>
         <MyButton wrapperProps={{text: "Месяцам"}} actions={{click: () => setCurrentType("month")}}
-                  buttonProps={getStyles("month")}/>
+          buttonProps={getStyles("month")}/>
       </Stack>
     </Box>}
     <Box sx={{

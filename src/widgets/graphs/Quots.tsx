@@ -2,7 +2,8 @@ import { getDays } from "../utilites/getDays";
 import { getWeeks } from "../utilites/getWeeks";
 import { getMonth } from "../utilites/getMonth";
 import { Box } from "@mui/material";
-import { useEffect, useRef } from "react";
+// @ts-ignore
+import React,{ useEffect, useRef } from "react";
 import * as echarts from "echarts";
 import "./styles.scss";
 import { IDatesItem } from "../types";
@@ -29,12 +30,12 @@ function Quot(props: { type: "days" | "month" | "weeks" }) {
   }
   function getData(): IDatesItem[] {
     switch (props.type) {
-      case "days":
-        return getDays().TTarget
-      case "weeks":
-        return getWeeks().TTarget
-      default:
-        return getMonth().TTarget
+    case "days":
+      return getDays().TTarget
+    case "weeks":
+      return getWeeks().TTarget
+    default:
+      return getMonth().TTarget
     }
   }
 
@@ -47,6 +48,7 @@ function Quot(props: { type: "days" | "month" | "weeks" }) {
         refBox.current.style.width = "100%";
       }
     }
+    // @ts-ignore
     const myChart = echarts.init(refBox.current, null, {
       renderer: "canvas",
       useDirtyRect: false
@@ -55,7 +57,7 @@ function Quot(props: { type: "days" | "month" | "weeks" }) {
     return ()=>{
       myChart.dispose()
     }
-    },[props.type]);
+  },[props.type]);
   return <Box ref={refBox}>
   </Box>;
 }

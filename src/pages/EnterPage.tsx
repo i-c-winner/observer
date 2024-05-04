@@ -2,6 +2,8 @@ import { Box, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../widgets/footer/Footer";
 import { Header } from "../widgets/headers/Header";
+// @ts-ignore
+import React from 'react'
 
 function EnterPage() {
   const navigate = useNavigate();

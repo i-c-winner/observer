@@ -1,6 +1,7 @@
 import { useAuth } from "../app/context/auth-context";
 import { Box, TextField, Typography, Input } from "@mui/material";
-import { useRef } from "react";
+// @ts-ignore
+import React,  { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Header } from "../widgets/headers/Header";
 import "./styles.scss";
@@ -51,14 +52,14 @@ function Loginin() {
         border: "1px solid black",
         justifyContent: "space-between"
       }}><Box sx={{
-        display: "flex",
-        justifyContent: "flex-end",
-        width: "100%",
-        fontSize: "2rem"
-      }}>
-        <Typography sx={{flexGrow: "1", alignContent: "center", fontSize: "1.5rem"}}>Пользователь</Typography>
-        <TextField sx={styleInput} label="Пользователь" inputRef={refName}/>
-      </Box>
+          display: "flex",
+          justifyContent: "flex-end",
+          width: "100%",
+          fontSize: "2rem"
+        }}>
+          <Typography sx={{flexGrow: "1", alignContent: "center", fontSize: "1.5rem"}}>Пользователь</Typography>
+          <TextField sx={styleInput} label="Пользователь" inputRef={refName}/>
+        </Box>
         <Box sx={{
           display: "flex",
           justifyContent: "flex-end",
@@ -82,10 +83,10 @@ function Loginin() {
               color: "#fff"
             },
           }}
-                    wrapperProps={{
-                      onClick: loginin,
-                      text: "Войти"
-                    }}
+          wrapperProps={{
+            onClick: loginin,
+            text: "Войти"
+          }}
 
           />
         </Box>

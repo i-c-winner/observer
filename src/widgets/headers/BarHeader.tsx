@@ -1,3 +1,5 @@
+// @ts-ignore
+import React from 'react'
 import { Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "../styles.scss";
@@ -42,7 +44,7 @@ function BarHeader(props: { type: 'oee'| 'quota'| 'orders'| 'status'| 'complexit
     <div onClick={() => {
       navigate("/enter");
     }}
-         className="logo__bar logo__bar_bar-header"
+    className="logo__bar logo__bar_bar-header"
     ></div>
 
 

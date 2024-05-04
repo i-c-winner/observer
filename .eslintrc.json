@@ -1,0 +1,45 @@
+{
+  "overrides": [
+    {
+      "plugins": [
+        "react",
+        "@typescript-eslint/eslint-plugin"
+      ],
+      "files": "src/**/*.{js,ts,tsx}"
+    }
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "jsx-runtime": {
+      "plugins": [
+        "react"
+      ],
+      "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+      },
+      "rules": {
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-uses-react": 0
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": false
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "indent": ["error",2]
+    // Ваши правила здесь
+  }
+  // Дополнительные настройки здесь
+}

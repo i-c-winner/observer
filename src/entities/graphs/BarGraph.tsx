@@ -1,7 +1,8 @@
 import * as echarts from "echarts";
 import { EChartsResponsiveOption } from "echarts";
 import { Box, Typography } from "@mui/material";
-import { useEffect, useRef } from "react";
+// @ts-ignore
+import React, { useEffect, useRef } from "react";
 import { getDays } from "../../widgets/utilites/getDays";
 import { getMonth } from "../../widgets/utilites/getMonth";
 import { getWeeks } from "../../widgets/utilites/getWeeks";
@@ -44,7 +45,7 @@ function BarGraph(props: { type: "month" | "days" | "weeks", element: TElement }
       refBox.current!.id = "chart-container"
       const myChart = echarts.init(refBox.current!, {}, {
         renderer: "canvas",
-        useDirtyRect: false
+        // useDirtyRect: false
       });
       myChart.setOption(options);
       return () => {

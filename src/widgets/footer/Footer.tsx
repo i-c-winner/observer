@@ -2,6 +2,8 @@ import { Box } from "@mui/material";
 import "../../pages/styles.scss"
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../app/context/auth-context";
+// @ts-ignore
+import React from 'react'
 
 
 function Footer() {

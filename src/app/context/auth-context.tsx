@@ -1,10 +1,11 @@
-import { createContext, ReactNode, useContext, useState } from "react";
+// @ts-ignore
+import React, { createContext, ReactNode, useContext, useState } from "react";
 
 /**
  * TODO Типизировать creatContext
  */
 const AuthContext=createContext<any>(null)
-export const AuthProvider=({children}:{children: ReactNode})=>{
+export const AuthProvider=({children}: {children: ReactNode})=>{
   const [user, setUser]= useState<string|null>(null)
   const login =(userData: string)=>{
     setUser(userData)

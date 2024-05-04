@@ -1,3 +1,5 @@
+// @ts-ignore
+import React from 'react'
 import { Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "../styles.scss";
@@ -17,7 +19,7 @@ function Header() {
       navigate("/enter");
 
     }}
-         className="logo__bar logo__bar_header"
+    className="logo__bar logo__bar_header"
     ></div>
   </Box>;
 

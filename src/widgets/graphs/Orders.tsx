@@ -1,3 +1,5 @@
+// @ts-ignore
+import React from 'react'
 import { Box } from "@mui/material";
 import { OrderGraph } from "../../entities/graphs/OrderGraph";
 import {myData} from "../../shared/assets/data/myData";

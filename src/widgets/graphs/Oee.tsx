@@ -1,3 +1,5 @@
+// @ts-ignore
+import React from 'react'
 import { getWeeks } from "../utilites/getWeeks";
 import { Grid} from "@mui/material";
 import { BarGraph } from "../../entities/graphs/BarGraph";
@@ -14,24 +16,24 @@ function Oee(props: { type: "month"| "days" | "weeks" }) {
     TOee: any,
     ATarget: any,
     AOee: any
-  } {
+    } {
 
     switch (props.type) {
-      case "days":
-        return getDays();
-      case "weeks":
-        return getWeeks();
-      default:
-        return getMonth();
+    case "days":
+      return getDays();
+    case "weeks":
+      return getWeeks();
+    default:
+      return getMonth();
     }
   }
-const data=Object.keys(getData()) as TElement[]
+  const data=Object.keys(getData()) as TElement[]
   return <Grid container spacing={3}>
-      {data.map((element) => {
-        return <Grid key={element} item xs={6}>
-          <BarGraph type={props.type} element={element}/>
-        </Grid>;
-      })};
+    {data.map((element) => {
+      return <Grid key={element} item xs={6}>
+        <BarGraph type={props.type} element={element}/>
+      </Grid>;
+    })};
   </Grid>;
 }
 
