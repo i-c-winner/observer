@@ -1,31 +1,28 @@
-const mainTheme ={
+const mainTheme = {
   dark: {
     palette: {
       primary: {
-        main: "#223c49"
+        main: "#223c49",
       },
     },
     components: {
       MuiInput: {
-        styleOverrides:{
+        styleOverrides: {
           root: {
             "&:after, &:before": {
               borderBottom: "none",
             },
             "&:hover": {
               "&:before": {
-                borderBottom: "none!important"
-              }
-            }
-          }
-        }
-      }
-    }
+                borderBottom: "none!important",
+              },
+            },
+          },
+        },
+      },
+    },
   },
-  light: {
-
-  }
-
-}
+  light: {},
+};
 
 export { mainTheme };

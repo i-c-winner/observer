@@ -1,1 +1,1 @@
-export {BarHeader as BarHeader} from './BarHeader'
+export { BarHeader } from "./BarHeader";

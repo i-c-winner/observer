@@ -1,20 +1,21 @@
+import { Box } from "@mui/material";
+// @ts-ignore
+import React, { useEffect, useRef } from "react";
+import * as echarts from "echarts";
 import { getDays } from "../utilites/getDays";
 import { getWeeks } from "../utilites/getWeeks";
 import { getMonth } from "../utilites/getMonth";
-import { Box } from "@mui/material";
 // @ts-ignore
-import React,{ useEffect, useRef } from "react";
-import * as echarts from "echarts";
 import "./styles.scss";
 import { IDatesItem } from "../types";
 
 function Quot(props: { type: "days" | "month" | "weeks" }) {
-  console.log(getData())
+  console.log(getData());
   const option = {
     series: [
       {
-        type: 'pie',
-        data: getData()
+        type: "pie",
+        data: getData(),
       },
     ],
     // legend: {
@@ -27,15 +28,15 @@ function Quot(props: { type: "days" | "month" | "weeks" }) {
     //
     //   }, [])
     // },
-  }
+  };
   function getData(): IDatesItem[] {
     switch (props.type) {
-    case "days":
-      return getDays().TTarget
-    case "weeks":
-      return getWeeks().TTarget
-    default:
-      return getMonth().TTarget
+      case "days":
+        return getDays().TTarget;
+      case "weeks":
+        return getWeeks().TTarget;
+      default:
+        return getMonth().TTarget;
     }
   }
 
@@ -51,15 +52,14 @@ function Quot(props: { type: "days" | "month" | "weeks" }) {
     // @ts-ignore
     const myChart = echarts.init(refBox.current, null, {
       renderer: "canvas",
-      useDirtyRect: false
+      useDirtyRect: false,
     });
     myChart.setOption(option);
-    return ()=>{
-      myChart.dispose()
-    }
-  },[props.type]);
-  return <Box ref={refBox}>
-  </Box>;
+    return () => {
+      myChart.dispose();
+    };
+  }, [props.type]);
+  return <Box ref={refBox} />;
 }
 
 export { Quot };

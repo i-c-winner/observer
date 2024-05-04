@@ -4,6 +4,6 @@ declare module "*.json" {
 }
 
 declare module "randomcolor" {
-  const randomColor: any
-  export default  randomColor
+  const randomColor: any;
+  export default randomColor;
 }
