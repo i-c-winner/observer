@@ -21,6 +21,10 @@ function BarGraph(props: any) {
     (accum: any, element: any) => [...accum, element.OEE],
     []
   );
+  const lines: any=[]
+  for (let i=0; i<=values.length; i+=1) {
+    lines.push(98)
+  }
   const options: echarts.EChartOption | EChartsResponsiveOption = {
     xAxis: {
       type: "category",
@@ -34,6 +38,11 @@ function BarGraph(props: any) {
         data: values,
         type: "bar",
       },
+      {
+        data: lines,
+        type: "line"
+
+      }
     ],
   };
 
