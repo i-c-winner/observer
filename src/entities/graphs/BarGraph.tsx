@@ -11,7 +11,7 @@ import React, { useEffect, useRef } from "react";
 
 function BarGraph(props: any) {
   const refBox = useRef<HTMLDivElement | null>(null);
-
+const nameGraph=props.data[0]?.Section_Name??''
   // const elements: {name: string, value: string}[] = [];
   const names = props.data.reduce(
     (accum: any, element: any) => [...accum, element.Month],
@@ -63,6 +63,13 @@ function BarGraph(props: any) {
         showSymbol: false,
       },
     ],
+    grid: {
+      left: '10%',   // отступ слева
+      right: '10%',  // отступ справа
+      bottom: '10%', // отступ снизу
+      top: '10%',    // отступ сверху
+      containLabel: true // включает метки в область графика
+    }
   };
 
   useEffect(() => {
@@ -85,7 +92,7 @@ function BarGraph(props: any) {
 
   return (
     <Box>
-      <Typography>График: </Typography>
+      <Typography>График: {nameGraph} </Typography>
       <Box sx={{ height: "180px" }} ref={refBox} />
     </Box>
   );

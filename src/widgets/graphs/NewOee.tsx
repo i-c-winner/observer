@@ -30,12 +30,14 @@ function NewOee(props: any) {
   console.log(data, 'MY DARRT')
   return (
     <Grid container spacing={3}>
-      {data.map((element, index) => (
-        <Grid key={index} item xs={6}>
-          <BarGraph data={element} />
-        </Grid>
-      ))}
-      ;
+      {data.map((element, index) => {
+        console.log(element)
+          return <Grid key={index} item xs={6}>
+            <BarGraph data={element} />
+          </Grid>
+        }
+      )
+      }
     </Grid>
   );
 }
