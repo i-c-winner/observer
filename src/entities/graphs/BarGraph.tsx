@@ -22,9 +22,13 @@ function BarGraph(props: any) {
   };
   // const elements: {name: string, value: string}[] = [];
   const names = props.data.reduce(
-    (accum: any, element: any) => [...accum, element.Month],
+    (accum: any, element: any) => [
+      ...accum,
+      { month: element.Month, year: element.Year },
+    ],
     []
   );
+  console.log(names);
   const lines: any = [];
   const treedValues: any[] = [];
   const values = props.data.reduce(
@@ -44,20 +48,39 @@ function BarGraph(props: any) {
   const treedOeeValues: any = values.map((element: any, index: number) => {
     return regressionLine(index);
   });
+
   const options: echarts.EChartOption | EChartsResponsiveOption = {
+    title: {
+      text: `${getName()} OEE`,
+    },
+    tooltip: {
+      trigger: "axis",
+      axisPointer: {
+        // @ts-ignore
+        formatter: (params: any) => {
+          const { month, year } = params[0].value;
+          return `${year}/${month}`;
+        },
+      },
+    },
+    legend: {
+      data: ["OEE", "Плановое OEE", "Тренд OEE"],
+    },
     xAxis: {
       type: "category",
-      data: names,
+      data: names.map(({ month, year}:{month: string, year: string}) => `${year}/${month}`),
     },
     yAxis: {
       type: "value",
     },
     series: [
       {
+        name: "ОЕЕ",
         data: values,
         type: "bar",
       },
       {
+        name: "Плановое ОЕЕ",
         data: lines,
         type: "line",
         itemStyle: {
@@ -66,6 +89,7 @@ function BarGraph(props: any) {
         showSymbol: false,
       },
       {
+        name: "Тренд ОЕЕ",
         data: treedOeeValues,
         type: "line",
         showSymbol: false,
@@ -75,12 +99,12 @@ function BarGraph(props: any) {
       left: "10%", // отступ слева
       right: "10%", // отступ справа
       bottom: "10%", // отступ снизу
-      top: "10%", // отступ сверху
+      top: "20%", // отступ сверху
       containLabel: true, // включает метки в область графика
     },
   };
   function getName() {
-    return worksMap[nameGraph];
+    return worksMap[nameGraph] ?? "";
   }
   useEffect(() => {
     if (refBox.current !== null) {
@@ -102,7 +126,7 @@ function BarGraph(props: any) {
 
   return (
     <Box>
-      <Typography>{getName()} </Typography>
+      <Typography> </Typography>
       <Box sx={{ height: "180px" }} ref={refBox} />
     </Box>
   );
