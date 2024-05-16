@@ -1,0 +1,3080 @@
+ [
+        {
+            "FT": 0,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": null,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 0,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": null,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 0.6,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": null,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 88.67,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 604.0000000000002,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 424.70000000000005,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 56.790000000000006,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 1048.5300000000004,
+            "Month": 2,
+            "Number_of_Workers": 4,
+            "Productivity": 262.1325000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 37.959999999999994,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 98.6,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 3603.9100000000003,
+            "Month": 3,
+            "Number_of_Workers": 9,
+            "Productivity": 400.43444444444447,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 493.70000000000005,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 306.9100000000001,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 1258.0222199999998,
+            "Month": 4,
+            "Number_of_Workers": 4,
+            "Productivity": 314.50555499999996,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 257.90000000000003,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 355.84000000000015,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 1607.67,
+            "Month": 5,
+            "Number_of_Workers": 5,
+            "Productivity": 321.534,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 15.7,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 180.72999999999996,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 3205.052000000003,
+            "Month": 6,
+            "Number_of_Workers": 10,
+            "Productivity": 320.5052000000003,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 60.1,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 286.9300000000003,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 466.06000000000006,
+            "Month": 7,
+            "Number_of_Workers": 5,
+            "Productivity": 93.21200000000002,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 6.76,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 750.1499999999996,
+            "Month": 8,
+            "Number_of_Workers": 1,
+            "Productivity": 750.1499999999996,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 317.0000000000001,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 552.0600000000001,
+            "Month": 9,
+            "Number_of_Workers": 1,
+            "Productivity": 552.0600000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 278.8500000000001,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 423.93000000000023,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 0.29,
+            "Month": 10,
+            "Number_of_Workers": 1,
+            "Productivity": 0.29,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 1560.6999999999987,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 335.83,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 2.46,
+            "Month": 11,
+            "Number_of_Workers": 1,
+            "Productivity": 2.46,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 56.04999999999998,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 624.71,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 151.29999999999998,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 1828.8900000000008,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 257.09999999999985,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 251.9,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 6039.889999999998,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 50.230000000000025,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 365.0000000000003,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 7580.369999999998,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 237.7500000000002,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 567.1600000000005,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 824.0220000000003,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 265.09999999999974,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 61.32000000000005,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 6431.087999999994,
+            "Month": 5,
+            "Number_of_Workers": 1,
+            "Productivity": 6431.087999999994,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 0.65,
+            "Month": 5,
+            "Number_of_Workers": 1,
+            "Productivity": 0.65,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2024
+        },
+        {
+            "FT": 610.0000000000001,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 158.24999999999997,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 2314.95,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 225.2500000000001,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 216.04999999999998,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 1552.639999999999,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 648.759999999998,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 95.95000000000002,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 361.96000000000004,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 0.8,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 280.3600000000001,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 15.25,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 288.8000000000003,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 161.69999999999987,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 0.9500000000000001,
+            "Month": 11,
+            "Number_of_Workers": 1,
+            "Productivity": 0.9500000000000001,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 107.69999999999992,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 333.53999999999996,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 3219.999999999998,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 331.8300000000004,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 91.49999999999999,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 24.8,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 463.58000000000015,
+            "Month": 2,
+            "Number_of_Workers": 4,
+            "Productivity": 115.89500000000004,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 42.03000000000002,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 84.90000000000006,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 3078.6299999999987,
+            "Month": 3,
+            "Number_of_Workers": 11,
+            "Productivity": 279.87545454545443,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 453.30000000000024,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 281.7999999999997,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 901.2999999999998,
+            "Month": 4,
+            "Number_of_Workers": 11,
+            "Productivity": 81.93636363636362,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 47.3,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 370.30000000000007,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 1644.9900000000007,
+            "Month": 5,
+            "Number_of_Workers": 10,
+            "Productivity": 164.49900000000008,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 6.3999999999999995,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 349.2000000000003,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 80945.94000003785,
+            "Month": 6,
+            "Number_of_Workers": 11,
+            "Productivity": 7358.7218181852595,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 8.7,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 434.00000000000006,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 1000.5460000000002,
+            "Month": 7,
+            "Number_of_Workers": 8,
+            "Productivity": 125.06825000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 15.000000000000002,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 220.29999999999995,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 2254.0699999999993,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 517.8400000000005,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 108.19999999999999,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 166.0599999999997,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 462.3400000000007,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 701.5100000000002,
+            "Month": 11,
+            "Number_of_Workers": 1,
+            "Productivity": 701.5100000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 321.35000000000014,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 317.93000000000006,
+            "Month": 12,
+            "Number_of_Workers": 1,
+            "Productivity": 317.93000000000006,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 138.03,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 4.300000000000001,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 2.6000000000000005,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 158.64999999999998,
+            "Month": 2,
+            "Number_of_Workers": 2,
+            "Productivity": 79.32499999999999,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 12.699999999999998,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 4.8999999999999995,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 324.6,
+            "Month": 3,
+            "Number_of_Workers": 3,
+            "Productivity": 108.2,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 53.99999999999998,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 134.24,
+            "Month": 4,
+            "Number_of_Workers": 3,
+            "Productivity": 44.74666666666667,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 9,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 33.6,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 137.8,
+            "Month": 5,
+            "Number_of_Workers": 3,
+            "Productivity": 45.93333333333334,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 9.4,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 210.51000000000002,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 379.9499999999999,
+            "Month": 6,
+            "Number_of_Workers": 3,
+            "Productivity": 126.64999999999996,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 2.5,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 122.70000000000002,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 80.84000000000002,
+            "Month": 7,
+            "Number_of_Workers": 2,
+            "Productivity": 40.42000000000001,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 57.4,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 27.099999999999998,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 43.699999999999996,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 18.900000000000002,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 47.3,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 23.700000000000003,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 1.7000000000000002,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 77.3,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 60.91,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 10.1,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 34.650000000000006,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 18,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 3.6,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 377.62,
+            "Month": 3,
+            "Number_of_Workers": 1,
+            "Productivity": 377.62,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 66.4,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 51.33,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 0.6,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 0.85,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 16.740000000000002,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 0.5,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 21.6,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 129.65000000000003,
+            "Month": 6,
+            "Number_of_Workers": 4,
+            "Productivity": 32.41250000000001,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 16.3,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 19.5,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 50.25999999999999,
+            "Month": 7,
+            "Number_of_Workers": 1,
+            "Productivity": 50.25999999999999,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 5.8,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 17.299999999999997,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 55.06000000000001,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 31.4,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 14.75,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 85.69999999999999,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 16.2,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 10.6,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 12.559999999999997,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 355.8699999999999,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 101.9,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 4.69,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 238.79000000000005,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 17.5,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 8.100000000000001,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 404.92999999999967,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 391.3000000000001,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 123.39999999999999,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 184.7200000000001,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 188.79999999999998,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 81.8,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 556.9299999999997,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 6.3999999999999995,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 192.79999999999993,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 567.3299999999992,
+            "Month": 6,
+            "Number_of_Workers": 1,
+            "Productivity": 567.3299999999992,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 6.900000000000001,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 847.4,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 233.18000000000043,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 4.56,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 327.2500000000002,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 849.7099999999998,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 611.5300000000003,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 16.799999999999997,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 146.44999999999976,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 0.4,
+            "Month": 10,
+            "Number_of_Workers": 1,
+            "Productivity": 0.4,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 394.2800000000003,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 297.89,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 270.0500000000001,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 75.45000000000003,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 13.8,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 168.6999999999999,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 34.800000000000004,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 6.8,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 219.5199999999999,
+            "Month": 2,
+            "Number_of_Workers": 1,
+            "Productivity": 219.5199999999999,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 29.33000000000001,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 16.799999999999997,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 430.04000000000025,
+            "Month": 3,
+            "Number_of_Workers": 5,
+            "Productivity": 86.00800000000005,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 1.2,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 76.7,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 130.46000000000004,
+            "Month": 4,
+            "Number_of_Workers": 2,
+            "Productivity": 65.23000000000002,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 3,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 123.41999999999996,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 147.20999999999992,
+            "Month": 5,
+            "Number_of_Workers": 2,
+            "Productivity": 73.60499999999996,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 94.25999999999995,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 322.92999999999984,
+            "Month": 6,
+            "Number_of_Workers": 6,
+            "Productivity": 53.82166666666664,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 0.5,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 143.52999999999992,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 116.06,
+            "Month": 7,
+            "Number_of_Workers": 3,
+            "Productivity": 38.68666666666667,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 10,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 172.12,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 65.47000000000001,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 268.4700000000002,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 27.6,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 205.8599999999999,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 18.240000000000002,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 25.579999999999995,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 34.949999999999996,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 8148.790000000002,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 559.3600000000014,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 820.9000000000005,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 191.7699999999999,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 659.1399999999993,
+            "Month": 2,
+            "Number_of_Workers": 4,
+            "Productivity": 164.78499999999983,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 230.87999999999994,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 360.7999999999995,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1399.1499999999976,
+            "Month": 3,
+            "Number_of_Workers": 9,
+            "Productivity": 155.46111111111085,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 1933.7099999999975,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1923.510000000003,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 542.4906900000009,
+            "Month": 4,
+            "Number_of_Workers": 8,
+            "Productivity": 67.81133625000011,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 795.7000000000006,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 2086.9699999999925,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 962.0399999999955,
+            "Month": 5,
+            "Number_of_Workers": 6,
+            "Productivity": 160.33999999999926,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 93.50000000000003,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1890.8199999999915,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1231.459999999983,
+            "Month": 6,
+            "Number_of_Workers": 19,
+            "Productivity": 64.81368421052542,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 290.29999999999995,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 3301.7199999999966,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 637.975999999999,
+            "Month": 7,
+            "Number_of_Workers": 9,
+            "Productivity": 70.8862222222221,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 1209.4800000000007,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 2304.169999999996,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 5119.290000000034,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 3254.669999999996,
+            "Month": 9,
+            "Number_of_Workers": 3,
+            "Productivity": 1084.8899999999987,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 951.0499999999989,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 2155.569999999984,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 0.4,
+            "Month": 10,
+            "Number_of_Workers": 1,
+            "Productivity": 0.4,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 3303.2599999999857,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1426.5999999999983,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 871.2100000000013,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 236.68999999999994,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 257.01,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 158.8,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 260.25,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 112.59999999999998,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 370.6000000000001,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 376.95000000000005,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 155.15000000000003,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 0,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 18,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 58,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 63,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1577.6,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 16184,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 92.19999999999999,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 19.599999999999994,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 31654.59999999998,
+            "Month": 2,
+            "Number_of_Workers": 3,
+            "Productivity": 10551.533333333327,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 62.759999999999984,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 46.699999999999996,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 93674.94999999988,
+            "Month": 3,
+            "Number_of_Workers": 2,
+            "Productivity": 46837.47499999994,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 399.8000000000002,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 286.98,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 15034.120000000004,
+            "Month": 4,
+            "Number_of_Workers": 1,
+            "Productivity": 15034.120000000004,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 379.3000000000002,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 558.85,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 43850.92999999999,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 8.9,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 435.0300000000005,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 44384.1,
+            "Month": 6,
+            "Number_of_Workers": 9,
+            "Productivity": 4931.566666666667,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 60.300000000000004,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1321.1399999999958,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 23849.61999999998,
+            "Month": 7,
+            "Number_of_Workers": 1,
+            "Productivity": 23849.61999999998,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 68.89999999999999,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 409.65000000000026,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 994.0899999999995,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 790.9200000000002,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 171.5,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 442.78000000000117,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1188.1999999999987,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 4041.38,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 342.1000000000001,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 6356,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 0,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 108,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 108.3,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 56.03999999999999,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 225.0999999999999,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 28.499999999999996,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 90.55999999999999,
+            "Month": 2,
+            "Number_of_Workers": 1,
+            "Productivity": 90.55999999999999,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 14.700000000000006,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 43,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 136.57,
+            "Month": 3,
+            "Number_of_Workers": 1,
+            "Productivity": 136.57,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 160.29999999999998,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 79.70999999999994,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 13.999999999999998,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 130.99999999999997,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 74.55999999999992,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 24.099999999999998,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 333.8,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 137.90999999999974,
+            "Month": 6,
+            "Number_of_Workers": 6,
+            "Productivity": 22.984999999999957,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 69.8,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 550.6000000000003,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 83.16999999999993,
+            "Month": 7,
+            "Number_of_Workers": 2,
+            "Productivity": 41.584999999999965,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 204.3,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 142.5,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 233.09999999999994,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 205.89999999999986,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 142.70000000000002,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 364.6200000000003,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 57.5,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 110.06000000000002,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 34.8,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 71.93000000000002,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 3459.970000000003,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 2963.660000000003,
+            "Month": 1,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 787.7000000000012,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 336.09000000000026,
+            "Month": 2,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 7745.299999999998,
+            "Month": 2,
+            "Number_of_Workers": 7,
+            "Productivity": 1106.4714285714283,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 160.92000000000013,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 557.0000000000001,
+            "Month": 3,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 14965.129999999992,
+            "Month": 3,
+            "Number_of_Workers": 17,
+            "Productivity": 880.3017647058819,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 1184.7499999999995,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1276.2699999999998,
+            "Month": 4,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 3168.9142199999983,
+            "Month": 4,
+            "Number_of_Workers": 17,
+            "Productivity": 186.4067188235293,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 579.9000000000016,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 821.9100000000012,
+            "Month": 5,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 9838.288000000004,
+            "Month": 5,
+            "Number_of_Workers": 18,
+            "Productivity": 546.5715555555557,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 0.65,
+            "Month": 5,
+            "Number_of_Workers": 1,
+            "Productivity": 0.65,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2024
+        },
+        {
+            "FT": 642.0000000000001,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 920.2899999999994,
+            "Month": 6,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 86975.54200003829,
+            "Month": 6,
+            "Number_of_Workers": 19,
+            "Productivity": 4577.660105265173,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 312.8500000000003,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1079.1799999999998,
+            "Month": 7,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 3150.3460000000023,
+            "Month": 7,
+            "Number_of_Workers": 16,
+            "Productivity": 196.89662500000014,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 733.7199999999979,
+            "Month": 8,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1110.7999999999997,
+            "Month": 8,
+            "Number_of_Workers": 1,
+            "Productivity": 1110.7999999999997,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 3031.790000000008,
+            "Month": 9,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1120.9999999999989,
+            "Month": 9,
+            "Number_of_Workers": 1,
+            "Productivity": 1120.9999999999989,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 729.4600000000005,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 714.6400000000011,
+            "Month": 10,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 0.29,
+            "Month": 10,
+            "Number_of_Workers": 1,
+            "Productivity": 0.29,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 2313.5399999999995,
+            "Month": 11,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1292.5400000000006,
+            "Month": 11,
+            "Number_of_Workers": 1,
+            "Productivity": 1292.5400000000006,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 3.41,
+            "Month": 11,
+            "Number_of_Workers": 2,
+            "Productivity": 1.705,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 485.1000000000006,
+            "Month": 12,
+            "Number_of_Workers": 0,
+            "Productivity": null,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1286.78,
+            "Month": 12,
+            "Number_of_Workers": 1,
+            "Productivity": 1286.78,
+            "Workshop": 444444,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        }
+    ]
