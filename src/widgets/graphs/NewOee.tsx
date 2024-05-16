@@ -22,7 +22,7 @@ function NewOee(props: any) {
     data.push(grinding);
     data.push(others);
     data.push(turrAut);
-    data.push(turrMill);
+    data.push(turrMill)
     console.log(data, "DATA FIRST")
     return data
   }
