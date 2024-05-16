@@ -6,9 +6,10 @@ import Stack from "@mui/material/Stack";
 import { Footer } from "../widgets/footer/Footer";
 import { BarHeader } from "../widgets/headers";
 import { MyButton } from "../widgets/UI/Button/MyButton";
-import { Oee } from "../widgets/graphs/Oee";
+// import { Oee } from "../widgets/graphs/Oee";
 import { Quot } from "../widgets/graphs/Quots";
 import { Orders } from "../widgets/graphs/Orders";
+import { NewOee } from "../widgets/graphs/NewOee.tsx";
 
 function Graphs() {
   const { type }: any = useParams<"oee" | "quota" | "orders" | string>();
@@ -32,7 +33,7 @@ function Graphs() {
   useEffect(() => {
     switch (type) {
       case "oee":
-        setChildren(<Oee type={currentType} />);
+        setChildren(<NewOee type={currentType} />);
         break;
       case "quota":
         setChildren(<Quot type={currentType} />);

@@ -1,34 +1,15 @@
 {
-  "overrides": [
-    {
-      "files": "src/**/*.{js,ts,tsx}",
-      "rules": {
-        "indent": ["error", 2]
-      }
-    }
-  ],
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "jsx-runtime": {
-      "plugins": ["react", "@typescript-eslint/eslint-plugin"],
-      "parserOptions": {
-        "ecmaVersion": 2021,
-        "sourceType": "module"
-      },
-      "rules": {
-        "react/react-in-jsx-scope": 0,
-        "react/jsx-uses-react": 0
-      }
-    }
-  },
-  "env": {
-    "browser": true,
-    "node": false
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+  "rules": {
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "@typescript-eslint/ban-ts-comment": ["off"],
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }],
+    "max-len": ["warn",120],
+    "prefer-const": ["off"]
   }
 }

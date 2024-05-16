@@ -16,7 +16,7 @@ function Oee(props: { type: "month" | "days" | "weeks" }) {
     TOee: any;
     ATarget: any;
     AOee: any;
-  } {
+    } {
     switch (props.type) {
       case "days":
         return getDays();
