@@ -3,32 +3,22 @@ import { EChartsResponsiveOption } from "echarts";
 import { Box, Typography } from "@mui/material";
 // @ts-ignore
 import React, { useEffect, useRef } from "react";
-import { getDays } from "../../widgets/utilites/getDays";
-import { getMonth } from "../../widgets/utilites/getMonth";
-import { getWeeks } from "../../widgets/utilites/getWeeks";
-import { TElement } from "../../widgets/types";
+// import { getDays } from "../../widgets/utilites/getDays";
+// import { getMonth } from "../../widgets/utilites/getMonth";
+// import { getWeeks } from "../../widgets/utilites/getWeeks";
+// import { TElement } from "../../widgets/types";
 
-const myData = {
-  month: getMonth(),
-  days: getDays(),
-  weeks: getWeeks(),
-};
 
-function BarGraph(props: {
-  type: "month" | "days" | "weeks";
-  element: TElement;
-}) {
+
+function BarGraph(props: any) {
   const refBox = useRef<HTMLDivElement | null>(null);
-  const elements = myData[props.type][props.element] as unknown as {
-    name: string;
-    value: number;
-  }[];
-  const names = elements.reduce<string[]>(
-    (accum, element) => [...accum, element.name],
+  // const elements: {name: string, value: string}[] = [];
+  const names =props.data.reduce(
+    (accum: any, element: any) => [...accum, element.Month],
     []
   );
-  const values = elements.reduce<number[]>(
-    (accum, element) => [...accum, element.value],
+  const values = props.data.reduce(
+    (accum: any, element: any) => [...accum, element.OEE],
     []
   );
   const options: echarts.EChartOption | EChartsResponsiveOption = {
