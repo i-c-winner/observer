@@ -11,7 +11,7 @@ import turrMill from "../../shared/assets/data/data/Turning-Milling.json";
 import "./styles.scss";
 
 function NewOee(props: any) {
-  console.log(props)
+  console.log(props);
   milling.splice(0, 11);
   grinding.splice(0, 11);
   turrMill.splice(0, 11);
@@ -22,22 +22,19 @@ function NewOee(props: any) {
     data.push(grinding);
     data.push(others);
     data.push(turrAut);
-    data.push(turrMill)
-    console.log(data, "DATA FIRST")
-    return data
+    data.push(turrMill);
+    console.log(data, "DATA FIRST");
+    return data;
   }
   const data = getData();
-  console.log(data, 'MY DARRT')
+  console.log(data, "MY DARRT");
   return (
     <Grid container spacing={3}>
-      {data.map((element, index) => {
-        console.log(element)
-          return <Grid key={index} item xs={6}>
-            <BarGraph data={element} />
-          </Grid>
-        }
-      )
-      }
+      {data.map((element, index) => (
+        <Grid key={index} item xs={6}>
+          <BarGraph data={element} />
+        </Grid>
+      ))}
     </Grid>
   );
 }
