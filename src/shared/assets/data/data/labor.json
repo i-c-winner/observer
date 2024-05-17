@@ -1,0 +1,2706 @@
+ [
+        {
+            "FT": 424.70000000000005,
+            "Month": 2,
+            "PT": 590.1,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 39.059999999999995,
+            "Month": 3,
+            "PT": 510.4999999999999,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 493.7,
+            "Month": 4,
+            "PT": 1096.8499999999997,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 257.90000000000003,
+            "Month": 5,
+            "PT": 1838.8000000000013,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 15.7,
+            "Month": 6,
+            "PT": 480.79999999999995,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 63.400000000000006,
+            "Month": 7,
+            "PT": 225.75,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 6.76,
+            "Month": 8,
+            "PT": 306.02599999999995,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 373.0999999999999,
+            "Month": 9,
+            "PT": 1083.96,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 296.04999999999995,
+            "Month": 10,
+            "PT": 839.1200000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 2672.599999999998,
+            "Month": 11,
+            "PT": 1599.9900000000007,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 58.349999999999994,
+            "Month": 12,
+            "PT": 823.6999999999999,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 90.19,
+            "Month": 1,
+            "PT": 707.4000000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 56.79,
+            "Month": 2,
+            "PT": 532.7500000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 98.59999999999998,
+            "Month": 3,
+            "PT": 641.7500000000002,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 333.21000000000004,
+            "Month": 4,
+            "PT": 1198.8000000000002,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 385.8400000000002,
+            "Month": 5,
+            "PT": 1144.8400000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 183.82999999999996,
+            "Month": 6,
+            "PT": 1766.4300000000003,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 286.92999999999995,
+            "Month": 7,
+            "PT": 1343.7000000000003,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 752.6000000000001,
+            "Month": 8,
+            "PT": 1835.8300000000006,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 554.8600000000002,
+            "Month": 9,
+            "PT": 1485.7900000000006,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 424.03000000000003,
+            "Month": 10,
+            "PT": 1043.0700000000002,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 335.83000000000004,
+            "Month": 11,
+            "PT": 1364.92,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 624.71,
+            "Month": 12,
+            "PT": 1074.3200000000002,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 604,
+            "Month": 1,
+            "PT": 477.55,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 1048.5300000000002,
+            "Month": 2,
+            "PT": 494.50000000000006,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 3540.36,
+            "Month": 3,
+            "PT": 1595.8500000000001,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 1250.66222,
+            "Month": 4,
+            "PT": 4905.722220000004,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 1571.9500000000003,
+            "Month": 5,
+            "PT": 1197.1500000000003,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 3079.312000000001,
+            "Month": 6,
+            "PT": 1228.779,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 480.21000000000015,
+            "Month": 7,
+            "PT": 1175.1599999999999,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 0.29,
+            "Month": 10,
+            "PT": 157.89,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 2.46,
+            "Month": 11,
+            "PT": 113.59999999999998,
+            "Workshop": 94,
+            "Workshop_Name": "Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 257.09999999999985,
+            "Month": 2,
+            "PT": 353.59999999999985,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 51.33000000000002,
+            "Month": 3,
+            "PT": 117.35,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 237.75000000000023,
+            "Month": 4,
+            "PT": 456.09999999999997,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 265.0999999999998,
+            "Month": 5,
+            "PT": 457.9,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 610.0000000000001,
+            "Month": 6,
+            "PT": 437.5,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 225.2500000000001,
+            "Month": 7,
+            "PT": 227.29999999999998,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 648.7599999999981,
+            "Month": 8,
+            "PT": 311.94499999999994,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 413.4599999999999,
+            "Month": 9,
+            "PT": 322.6,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 298.05999999999995,
+            "Month": 10,
+            "PT": 281.80000000000007,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 288.8000000000003,
+            "Month": 11,
+            "PT": 218.39999999999998,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 107.69999999999992,
+            "Month": 12,
+            "PT": 208.6,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2021
+        },
+        {
+            "FT": 151.29999999999998,
+            "Month": 1,
+            "PT": 446.79999999999995,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 251.9,
+            "Month": 2,
+            "PT": 384.9999999999999,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 365.00000000000034,
+            "Month": 3,
+            "PT": 254.56000000000003,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 567.1600000000002,
+            "Month": 4,
+            "PT": 649.9699999999999,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 61.320000000000036,
+            "Month": 5,
+            "PT": 278.37,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 158.2499999999999,
+            "Month": 6,
+            "PT": 270.05,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 216.04999999999995,
+            "Month": 7,
+            "PT": 238.15,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 95.95000000000003,
+            "Month": 8,
+            "PT": 141.9,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 0.8,
+            "Month": 9,
+            "PT": 169.95,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 15.25,
+            "Month": 10,
+            "PT": 135.54999999999998,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 161.6999999999999,
+            "Month": 11,
+            "PT": 185.93,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 333.53999999999996,
+            "Month": 12,
+            "PT": 208.11999999999998,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2022
+        },
+        {
+            "FT": 1828.8899999999999,
+            "Month": 1,
+            "PT": 327.94,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 6039.889999999999,
+            "Month": 2,
+            "PT": 240.865,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 7616.869999999998,
+            "Month": 3,
+            "PT": 366.87,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 824.0220000000002,
+            "Month": 4,
+            "PT": 236.10799999999992,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 6431.088000000002,
+            "Month": 5,
+            "PT": 346.2979999999999,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 2314.9500000000007,
+            "Month": 6,
+            "PT": 289.27,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 1552.6399999999992,
+            "Month": 7,
+            "PT": 309.78999999999996,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 0.9500000000000001,
+            "Month": 11,
+            "PT": 9,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2023
+        },
+        {
+            "FT": 0.65,
+            "Month": 5,
+            "PT": 0.65,
+            "Workshop": 95,
+            "Workshop_Name": "Turning-Milling",
+            "Year": 2024
+        },
+        {
+            "FT": 91.49999999999999,
+            "Month": 2,
+            "PT": 531.5999999999999,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 42.03000000000002,
+            "Month": 3,
+            "PT": 834.3499999999997,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 453.30000000000024,
+            "Month": 4,
+            "PT": 1061.15,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 47.29999999999999,
+            "Month": 5,
+            "PT": 844.9000000000001,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 6.3999999999999995,
+            "Month": 6,
+            "PT": 709.3,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 13.700000000000001,
+            "Month": 7,
+            "PT": 447,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 20.799999999999997,
+            "Month": 8,
+            "PT": 775.3000000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 2282.4700000000003,
+            "Month": 9,
+            "PT": 775.2499999999999,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 122.99999999999999,
+            "Month": 10,
+            "PT": 1052.6399999999999,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 748.1400000000003,
+            "Month": 11,
+            "PT": 470.47999999999996,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 328.54999999999995,
+            "Month": 12,
+            "PT": 628.9000000000001,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2021
+        },
+        {
+            "FT": 3238.5999999999976,
+            "Month": 1,
+            "PT": 927.4500000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 24.8,
+            "Month": 2,
+            "PT": 1131.9500000000003,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 84.90000000000003,
+            "Month": 3,
+            "PT": 1111.15,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 283.7000000000001,
+            "Month": 4,
+            "PT": 1235.2000000000003,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 381.69999999999993,
+            "Month": 5,
+            "PT": 1094.9200000000005,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 364.39999999999975,
+            "Month": 6,
+            "PT": 660.55,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 436.4,
+            "Month": 7,
+            "PT": 986.0500000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 224.15000000000003,
+            "Month": 8,
+            "PT": 317.29999999999995,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 518.0400000000005,
+            "Month": 9,
+            "PT": 1611.8000000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 167.36999999999998,
+            "Month": 10,
+            "PT": 660.8600000000001,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 706.5600000000001,
+            "Month": 11,
+            "PT": 829.3300000000002,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 317.92999999999995,
+            "Month": 12,
+            "PT": 805.7799999999999,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2022
+        },
+        {
+            "FT": 331.8299999999999,
+            "Month": 1,
+            "PT": 263.19999999999993,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 451.5799999999999,
+            "Month": 2,
+            "PT": 683.95,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 2715.0300000000007,
+            "Month": 3,
+            "PT": 870.17,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 672.8000000000002,
+            "Month": 4,
+            "PT": 850.2199999999998,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 1277.8100000000002,
+            "Month": 5,
+            "PT": 1070.3700000000003,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 80429.7699999903,
+            "Month": 6,
+            "PT": 1345.44,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 917.8959999999997,
+            "Month": 7,
+            "PT": 1094.7759999999998,
+            "Workshop": 96,
+            "Workshop_Name": "Turning-Automatic",
+            "Year": 2023
+        },
+        {
+            "FT": 4.300000000000001,
+            "Month": 2,
+            "PT": 255.59999999999997,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 12.699999999999998,
+            "Month": 3,
+            "PT": 164.3,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 9,
+            "Month": 5,
+            "PT": 72.4,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 9.4,
+            "Month": 6,
+            "PT": 313.9,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 2.5,
+            "Month": 7,
+            "PT": 141.60000000000002,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 57.4,
+            "Month": 8,
+            "PT": 432.99999999999994,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 52.599999999999994,
+            "Month": 9,
+            "PT": 322.9,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 51.3,
+            "Month": 10,
+            "PT": 48.199999999999996,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 2.8000000000000003,
+            "Month": 11,
+            "PT": 201.65,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2021
+        },
+        {
+            "FT": 2.6000000000000005,
+            "Month": 2,
+            "PT": 122.4,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 4.8999999999999995,
+            "Month": 3,
+            "PT": 140.6,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 53.999999999999986,
+            "Month": 4,
+            "PT": 220.34999999999997,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 33.599999999999994,
+            "Month": 5,
+            "PT": 68.8,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 210.51000000000002,
+            "Month": 6,
+            "PT": 9.35,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 122.7,
+            "Month": 7,
+            "PT": 328.44999999999993,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 27.099999999999998,
+            "Month": 8,
+            "PT": 52.1,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 18.9,
+            "Month": 9,
+            "PT": 189.5,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 23.699999999999996,
+            "Month": 10,
+            "PT": 84.20000000000002,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 77.30000000000001,
+            "Month": 11,
+            "PT": 45.3,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2022
+        },
+        {
+            "FT": 138.03,
+            "Month": 1,
+            "PT": 102.38,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 158.65,
+            "Month": 2,
+            "PT": 61.48,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 271.79,
+            "Month": 3,
+            "PT": 411.9100000000001,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 133.23000000000002,
+            "Month": 4,
+            "PT": 158.58,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 120.63999999999999,
+            "Month": 5,
+            "PT": 183.85,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 313.1300000000001,
+            "Month": 6,
+            "PT": 263.06000000000006,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 76.84,
+            "Month": 7,
+            "PT": 70.58,
+            "Workshop": 97,
+            "Workshop_Name": "Fitting",
+            "Year": 2023
+        },
+        {
+            "FT": 10.1,
+            "Month": 2,
+            "PT": 57.99999999999999,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 18,
+            "Month": 3,
+            "PT": 38.599999999999994,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 0.6,
+            "Month": 5,
+            "PT": 68.8,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 0.5,
+            "Month": 6,
+            "PT": 29.3,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 18,
+            "Month": 7,
+            "PT": 15.100000000000001,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 8.7,
+            "Month": 8,
+            "PT": 89.07300000000001,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 62.56,
+            "Month": 9,
+            "PT": 114.30000000000001,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 14.75,
+            "Month": 10,
+            "PT": 51.3,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2021
+        },
+        {
+            "FT": 3.6,
+            "Month": 3,
+            "PT": 45.81,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 66.4,
+            "Month": 4,
+            "PT": 65.6,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 0.85,
+            "Month": 5,
+            "PT": 70.95,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 21.6,
+            "Month": 6,
+            "PT": 54.99999999999999,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 19.5,
+            "Month": 7,
+            "PT": 36.800000000000004,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 17.299999999999997,
+            "Month": 8,
+            "PT": 0.85,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 31.4,
+            "Month": 9,
+            "PT": 13.899999999999999,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 85.7,
+            "Month": 10,
+            "PT": 74.49999999999999,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 16.2,
+            "Month": 11,
+            "PT": 1.7,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 10.6,
+            "Month": 12,
+            "PT": 102.92999999999998,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2022
+        },
+        {
+            "FT": 60.91,
+            "Month": 1,
+            "PT": 48.58,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 34.650000000000006,
+            "Month": 2,
+            "PT": 41.1,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 377.62000000000006,
+            "Month": 3,
+            "PT": 48.58,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 51.33,
+            "Month": 4,
+            "PT": 115.03000000000002,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 16.740000000000002,
+            "Month": 5,
+            "PT": 161.20999999999998,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 121.34999999999998,
+            "Month": 6,
+            "PT": 113.14,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 50.26,
+            "Month": 7,
+            "PT": 66.35,
+            "Workshop": 100,
+            "Workshop_Name": "Grinding",
+            "Year": 2023
+        },
+        {
+            "FT": 101.9,
+            "Month": 2,
+            "PT": 166.35,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 17.5,
+            "Month": 3,
+            "PT": 134.80000000000004,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 391.3000000000001,
+            "Month": 4,
+            "PT": 122.6,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 188.79999999999998,
+            "Month": 5,
+            "PT": 204.20000000000002,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 6.3999999999999995,
+            "Month": 6,
+            "PT": 73.2,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 10.100000000000001,
+            "Month": 7,
+            "PT": 58.650000000000006,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 4.56,
+            "Month": 8,
+            "PT": 273.85,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 868.2099999999997,
+            "Month": 9,
+            "PT": 187.30000000000007,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 18.8,
+            "Month": 10,
+            "PT": 225.5,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 666.48,
+            "Month": 11,
+            "PT": 308.35,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 273.65,
+            "Month": 12,
+            "PT": 250.29999999999998,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 13.079999999999997,
+            "Month": 1,
+            "PT": 411.35,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 4.69,
+            "Month": 2,
+            "PT": 137.5,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 8.100000000000001,
+            "Month": 3,
+            "PT": 1228.9,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 125.3,
+            "Month": 4,
+            "PT": 924.7499999999997,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 88.19999999999997,
+            "Month": 5,
+            "PT": 117.1,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 195.39999999999998,
+            "Month": 6,
+            "PT": 158.40000000000003,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 849.0999999999998,
+            "Month": 7,
+            "PT": 384.20000000000005,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 330.20000000000005,
+            "Month": 8,
+            "PT": 130.50000000000003,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 611.6300000000003,
+            "Month": 9,
+            "PT": 321.24999999999994,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 147.16000000000003,
+            "Month": 10,
+            "PT": 429.20000000000005,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 298.1399999999999,
+            "Month": 11,
+            "PT": 1162.6000000000001,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 75.45000000000002,
+            "Month": 12,
+            "PT": 981.4499999999999,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 355.87,
+            "Month": 1,
+            "PT": 505.68,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 238.79000000000005,
+            "Month": 2,
+            "PT": 236.47000000000003,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 405.1800000000002,
+            "Month": 3,
+            "PT": 1107.91,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 185.02000000000004,
+            "Month": 4,
+            "PT": 1080.5599999999997,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 557.0400000000003,
+            "Month": 5,
+            "PT": 1493.1799999999996,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 567.5800000000011,
+            "Month": 6,
+            "PT": 1256.0500000000002,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 233.18000000000026,
+            "Month": 7,
+            "PT": 653.1000000000003,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 0.4,
+            "Month": 10,
+            "PT": 119.91999999999999,
+            "Workshop": 101,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 34.800000000000004,
+            "Month": 2,
+            "PT": 38.6,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 30.43000000000001,
+            "Month": 3,
+            "PT": 63.55,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1.2,
+            "Month": 4,
+            "PT": 137.10000000000002,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 3,
+            "Month": 5,
+            "PT": 266.79999999999995,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 0.5,
+            "Month": 7,
+            "PT": 45,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 10,
+            "Month": 8,
+            "PT": 223.59999999999997,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 81.77000000000002,
+            "Month": 9,
+            "PT": 121.5,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 27.6,
+            "Month": 10,
+            "PT": 95.80000000000003,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 19.339999999999996,
+            "Month": 11,
+            "PT": 145.20000000000002,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 37.24999999999999,
+            "Month": 12,
+            "PT": 123.9,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 13.8,
+            "Month": 1,
+            "PT": 196.39999999999995,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 6.8,
+            "Month": 2,
+            "PT": 135.8,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 16.799999999999997,
+            "Month": 3,
+            "PT": 175.7,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 77.9,
+            "Month": 4,
+            "PT": 122.2,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 129.42000000000002,
+            "Month": 5,
+            "PT": 155.10000000000002,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 95.76000000000002,
+            "Month": 6,
+            "PT": 211.50000000000006,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 144.02999999999994,
+            "Month": 7,
+            "PT": 201.3,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 172.82,
+            "Month": 8,
+            "PT": 151.70000000000002,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 268.4699999999999,
+            "Month": 9,
+            "PT": 207.89999999999998,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 205.86000000000004,
+            "Month": 10,
+            "PT": 93.80000000000001,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 25.57999999999999,
+            "Month": 11,
+            "PT": 121.10000000000002,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 168.70000000000005,
+            "Month": 1,
+            "PT": 176.31,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 219.51999999999995,
+            "Month": 2,
+            "PT": 80.03,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 430.04000000000025,
+            "Month": 3,
+            "PT": 159.96000000000004,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 130.45999999999998,
+            "Month": 4,
+            "PT": 461.3899999999996,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 149.14999999999998,
+            "Month": 5,
+            "PT": 245.46000000000004,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 314.9299999999998,
+            "Month": 6,
+            "PT": 380.9099999999998,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 116.06000000000002,
+            "Month": 7,
+            "PT": 186.80000000000004,
+            "Workshop": 102,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 820.9000000000005,
+            "Month": 2,
+            "PT": 803.7999999999996,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 235.27999999999994,
+            "Month": 3,
+            "PT": 1138.5800000000013,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1933.709999999998,
+            "Month": 4,
+            "PT": 1616.6600000000033,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 795.7000000000003,
+            "Month": 5,
+            "PT": 2281.25,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 93.50000000000003,
+            "Month": 6,
+            "PT": 2156.1600000000003,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 319.39999999999975,
+            "Month": 7,
+            "PT": 1214.14,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1223.9800000000007,
+            "Month": 8,
+            "PT": 1422.218000000003,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 5422.990000000014,
+            "Month": 9,
+            "PT": 2133.7700000000027,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1053.9500000000014,
+            "Month": 10,
+            "PT": 1625.3100000000013,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 5542.560000000024,
+            "Month": 11,
+            "PT": 1338.1000000000004,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 894.8099999999995,
+            "Month": 12,
+            "PT": 1596.3000000000006,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 8181.450000000002,
+            "Month": 1,
+            "PT": 1858.1500000000015,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 191.76999999999984,
+            "Month": 2,
+            "PT": 2104.829999999999,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 360.79999999999995,
+            "Month": 3,
+            "PT": 2177.9400000000005,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1982.81,
+            "Month": 4,
+            "PT": 3172.2499999999973,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 2181.369999999999,
+            "Month": 5,
+            "PT": 1613.0000000000007,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1921.7200000000005,
+            "Month": 6,
+            "PT": 1702.8800000000017,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 3307.319999999994,
+            "Month": 7,
+            "PT": 2011.5800000000013,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 2318.27,
+            "Month": 8,
+            "PT": 2092.1600000000008,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 3254.669999999993,
+            "Month": 9,
+            "PT": 2493.240000000001,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 2161.669999999999,
+            "Month": 10,
+            "PT": 1396.1400000000008,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1427.6000000000022,
+            "Month": 11,
+            "PT": 1740.120000000001,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 236.71999999999994,
+            "Month": 12,
+            "PT": 2211.4400000000037,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 561.1900000000004,
+            "Month": 1,
+            "PT": 1726.0200000000011,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 661.6600000000004,
+            "Month": 2,
+            "PT": 1093.8400000000001,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 1397.5600000000013,
+            "Month": 3,
+            "PT": 1900.6900000000012,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 542.2906900000006,
+            "Month": 4,
+            "PT": 1788.522579999997,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 942.0099999999991,
+            "Month": 5,
+            "PT": 2214.4599999999987,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 1209.0899999999951,
+            "Month": 6,
+            "PT": 2399.549999999998,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 644.5960000000001,
+            "Month": 7,
+            "PT": 1784.5759999999998,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 0.4,
+            "Month": 10,
+            "PT": 508.70000000000005,
+            "Workshop": 103,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 0,
+            "Month": 8,
+            "PT": 2.3,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 18,
+            "Month": 9,
+            "PT": 44,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 58,
+            "Month": 11,
+            "PT": 253,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 63,
+            "Month": 12,
+            "PT": 216,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 257.01,
+            "Month": 1,
+            "PT": 156.01,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 164.8,
+            "Month": 2,
+            "PT": 43.75,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 260.25,
+            "Month": 3,
+            "PT": 251.9,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 112.6,
+            "Month": 4,
+            "PT": 177,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 370.6,
+            "Month": 5,
+            "PT": 421.54999999999995,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 376.95000000000005,
+            "Month": 6,
+            "PT": 330.9,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 155.15000000000003,
+            "Month": 7,
+            "PT": 136.2,
+            "Workshop": 104,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 92.19999999999999,
+            "Month": 2,
+            "PT": 1302,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 63.859999999999985,
+            "Month": 3,
+            "PT": 7522,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 399.8000000000001,
+            "Month": 4,
+            "PT": 20458,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 379.3000000000002,
+            "Month": 5,
+            "PT": 38041.6,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 8.9,
+            "Month": 6,
+            "PT": 31836,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 65.30000000000001,
+            "Month": 7,
+            "PT": 13144,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 71.8,
+            "Month": 8,
+            "PT": 17319.68,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1068.9899999999993,
+            "Month": 9,
+            "PT": 31603.3,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 192.10000000000002,
+            "Month": 10,
+            "PT": 17486.9,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 2017.899999999998,
+            "Month": 11,
+            "PT": 24864.6,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 344.40000000000003,
+            "Month": 12,
+            "PT": 28629.299999999996,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 1578.3,
+            "Month": 1,
+            "PT": 18658.399999999998,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 19.599999999999994,
+            "Month": 2,
+            "PT": 27655,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 46.7,
+            "Month": 3,
+            "PT": 24888,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 313.78000000000003,
+            "Month": 4,
+            "PT": 27245.8,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 592.1500000000002,
+            "Month": 5,
+            "PT": 24554.5,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 438.72999999999996,
+            "Month": 6,
+            "PT": 31247,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 1322.14,
+            "Month": 7,
+            "PT": 40214,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 411.2499999999999,
+            "Month": 8,
+            "PT": 33777,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 791.8200000000005,
+            "Month": 9,
+            "PT": 29691,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 444.48000000000025,
+            "Month": 10,
+            "PT": 14689,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 4047.680000000001,
+            "Month": 11,
+            "PT": 19354,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 6482,
+            "Month": 12,
+            "PT": 38413,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 16382,
+            "Month": 1,
+            "PT": 17541.670000000002,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 31900.610000000004,
+            "Month": 2,
+            "PT": 18302.47,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 93674.95,
+            "Month": 3,
+            "PT": 27525.780000000013,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 15034.12,
+            "Month": 4,
+            "PT": 19058.810000000012,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 43850.98000000001,
+            "Month": 5,
+            "PT": 35232.96000000002,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 43664.060000000034,
+            "Month": 6,
+            "PT": 35674.85000000001,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 24055.630000000012,
+            "Month": 7,
+            "PT": 28553.40000000002,
+            "Workshop": 105,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 225.0999999999999,
+            "Month": 2,
+            "PT": 332.30000000000007,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 14.700000000000006,
+            "Month": 3,
+            "PT": 79.60000000000002,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 13.999999999999998,
+            "Month": 5,
+            "PT": 215.69999999999996,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 24.099999999999998,
+            "Month": 6,
+            "PT": 624,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 71.5,
+            "Month": 7,
+            "PT": 167.89999999999998,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 207.2,
+            "Month": 8,
+            "PT": 263.3949999999999,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 262.80000000000007,
+            "Month": 9,
+            "PT": 545,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 160.79999999999995,
+            "Month": 10,
+            "PT": 469.1999999999998,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 60.70000000000002,
+            "Month": 11,
+            "PT": 334.79999999999984,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 34.800000000000004,
+            "Month": 12,
+            "PT": 319.4999999999999,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2021
+        },
+        {
+            "FT": 109.1,
+            "Month": 1,
+            "PT": 560.5,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 28.499999999999996,
+            "Month": 2,
+            "PT": 329.65,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 43,
+            "Month": 3,
+            "PT": 434.7499999999999,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 160.29999999999998,
+            "Month": 4,
+            "PT": 789.2,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 133.6,
+            "Month": 5,
+            "PT": 580.7,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 335.29999999999984,
+            "Month": 6,
+            "PT": 302.79999999999995,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 551.5999999999999,
+            "Month": 7,
+            "PT": 364.70000000000005,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 144.3,
+            "Month": 8,
+            "PT": 781.4000000000001,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 205.89999999999998,
+            "Month": 9,
+            "PT": 354.6000000000001,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 364.7200000000001,
+            "Month": 10,
+            "PT": 199.60999999999996,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 110.05999999999999,
+            "Month": 11,
+            "PT": 404.2300000000001,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 71.93,
+            "Month": 12,
+            "PT": 340.4399999999999,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2022
+        },
+        {
+            "FT": 56.04000000000001,
+            "Month": 1,
+            "PT": 417.01000000000005,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 90.56000000000002,
+            "Month": 2,
+            "PT": 197.59000000000003,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 137.17000000000002,
+            "Month": 3,
+            "PT": 491.17999999999995,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 79.71000000000002,
+            "Month": 4,
+            "PT": 346.9499999999999,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 74.56,
+            "Month": 5,
+            "PT": 537.3800000000001,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 137.6599999999998,
+            "Month": 6,
+            "PT": 702.44,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 83.17,
+            "Month": 7,
+            "PT": 345.29999999999984,
+            "Workshop": 1107,
+            "Workshop_Name": "Others",
+            "Year": 2023
+        },
+        {
+            "FT": 787.7000000000012,
+            "Month": 2,
+            "PT": 1788.900000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 163.12,
+            "Month": 3,
+            "PT": 1665.100000000002,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 1184.7500000000007,
+            "Month": 4,
+            "PT": 2897.1999999999975,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 579.9000000000002,
+            "Month": 5,
+            "PT": 3282.7999999999993,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 642.0000000000001,
+            "Month": 6,
+            "PT": 1970.8000000000006,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 322.8500000000003,
+            "Month": 7,
+            "PT": 1056.7500000000005,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 742.4199999999978,
+            "Month": 8,
+            "PT": 1915.3440000000014,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 3184.1900000000087,
+            "Month": 9,
+            "PT": 2619.010000000002,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 783.1600000000005,
+            "Month": 10,
+            "PT": 2273.0600000000018,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 3712.339999999997,
+            "Month": 11,
+            "PT": 2547.520000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 494.6,
+            "Month": 12,
+            "PT": 1879.850000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2021
+        },
+        {
+            "FT": 3480.090000000002,
+            "Month": 1,
+            "PT": 2463.05,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 336.09000000000026,
+            "Month": 2,
+            "PT": 2265.7999999999997,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 557.0000000000002,
+            "Month": 3,
+            "PT": 2193.8700000000026,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 1304.4699999999998,
+            "Month": 4,
+            "PT": 3369.9200000000005,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 863.31,
+            "Month": 5,
+            "PT": 2657.880000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 938.5900000000006,
+            "Month": 6,
+            "PT": 2761.380000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 1081.5800000000004,
+            "Month": 7,
+            "PT": 2933.1500000000015,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 1117.1000000000006,
+            "Month": 8,
+            "PT": 2347.9800000000014,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 1124.0000000000005,
+            "Month": 9,
+            "PT": 3470.9399999999996,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 716.0500000000006,
+            "Month": 10,
+            "PT": 1998.1800000000007,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 1297.5900000000004,
+            "Month": 11,
+            "PT": 2427.180000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 1286.78,
+            "Month": 12,
+            "PT": 2446.450000000002,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2022
+        },
+        {
+            "FT": 2963.6599999999994,
+            "Month": 1,
+            "PT": 1219.6500000000005,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 7733.300000000003,
+            "Month": 2,
+            "PT": 1521.8950000000004,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 14521.67,
+            "Month": 3,
+            "PT": 3293.380000000001,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 2932.044219999999,
+            "Month": 4,
+            "PT": 6265.660220000005,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 9418.22800000001,
+            "Month": 5,
+            "PT": 2958.877999999999,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 86258.51199999009,
+            "Month": 6,
+            "PT": 3239.6889999999976,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 3077.8459999999977,
+            "Month": 7,
+            "PT": 2716.656,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 0.29,
+            "Month": 10,
+            "PT": 379.37,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 3.41,
+            "Month": 11,
+            "PT": 543.07,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2023
+        },
+        {
+            "FT": 0.65,
+            "Month": 5,
+            "PT": 140.17000000000002,
+            "Workshop": 333333,
+            "Workshop_Name": "Overall Productivity",
+            "Year": 2024
+        }
+    ]
