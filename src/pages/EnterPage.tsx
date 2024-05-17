@@ -52,7 +52,7 @@ function EnterPage() {
           }}
           variant="contained"
         >
-          Фактические квоты
+          Трудоёмкость
         </Button>
         <Button
           style={styleInput}

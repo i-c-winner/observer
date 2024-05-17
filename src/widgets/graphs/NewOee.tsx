@@ -10,8 +10,8 @@ import turrAut from "../../shared/assets/data/data/Turning-Automatic.json";
 import turrMill from "../../shared/assets/data/data/Turning-Milling.json";
 import "./styles.scss";
 
+// @ts-ignore
 function NewOee(props: any) {
-  console.log(props);
   function getData() {
     const data = [];
     data.push(fitting);
@@ -20,11 +20,9 @@ function NewOee(props: any) {
     data.push(others);
     data.push(turrAut);
     data.push(turrMill);
-    console.log(data, "DATA FIRST");
     return data;
   }
   const data = getData();
-  console.log(data, "MY DARRT");
   return (
     <Grid container spacing={3}>
       {data.map((element, index) => (

@@ -11,7 +11,6 @@ function MyButton(props: {
   const ButtonStyled = styled(Button)(() => ({
     ...props.buttonProps,
     onClick: () => {
-      console.log("click");
     },
   }));
 

@@ -1,7 +1,7 @@
 import * as echarts from "echarts";
 import { EChartsResponsiveOption } from "echarts";
 import { Box, Typography } from "@mui/material";
-import { linearRegression, linearRegressionLine } from "simple-statistics";
+
 // @ts-ignore
 import React, { useEffect, useRef } from "react";
 // import { getDays } from "../../widgets/utilites/getDays";
@@ -9,7 +9,7 @@ import React, { useEffect, useRef } from "react";
 // import { getWeeks } from "../../widgets/utilites/getWeeks";
 // import { TElement } from "../../widgets/types";
 
-function OrdersGraph(props: any) {
+function QuotesGraph(props: any) {
   const refBox = useRef<HTMLDivElement | null>(null);
   const nameGraph = props.data[0]?.Workshop_Name ?? ("" as string);
   const worksMap: { [key: string]: string } = {
@@ -31,28 +31,44 @@ function OrdersGraph(props: any) {
   );
   const lines: any = [];
   const treedValues: any[] = [];
+  const accumFt: number[]=[]
+  const accumPt: number[]=[]
   const values = props.data.reduce(
     (accum: any, element: any, currentIndex: number) => {
-      const production = element.Productivity ?? 0;
+      const production = element.PT ?? 0;
       treedValues.push([currentIndex, production]);
+      if (currentIndex===0) {
+        accumPt.push(production)
+      } else {
+        accumPt.push(accumPt[currentIndex-1]+production)
+      }
       return [...accum, production];
     },
     []
   );
 
-  const regression = linearRegression(treedValues);
-  const regressionLine = linearRegressionLine(regression);
+  const valuesFT = props.data.reduce(
+    (accum: any, element: any, currentIndex: number) => {
+
+      const production = element.FT ?? 0;
+      treedValues.push([currentIndex, production]);
+      if (currentIndex===0) {
+        accumFt.push(production)
+      } else {
+        accumFt.push(accumFt[currentIndex-1]+production)
+      }
+      return [...accum, production];
+    },
+    []
+  );
+
   for (let i = 0; i <= values.length; i += 1) {
     lines.push(98);
   }
-  // @ts-ignore
-  const treedOeeValues: any = values.map((element: any, index: number) => {
-    return regressionLine(index);
-  });
 
   const options: echarts.EChartOption | EChartsResponsiveOption = {
     title: {
-      text: `${getName()} производительность`,
+      text: `${getName()} трудоёмкость`,
     },
     tooltip: {
       trigger: "axis",
@@ -68,9 +84,10 @@ function OrdersGraph(props: any) {
       right: 0,
       top: 30,
       data: [
-        "производительность",
-        "Плановая производительность",
-        "Тренд производительности",
+        "План",
+        "Факт",
+        "Суммарный план",
+        "Суммарный факт"
       ],
     },
     xAxis: {
@@ -84,13 +101,24 @@ function OrdersGraph(props: any) {
     },
     series: [
       {
-        name: "производительность",
+        name: "План",
         data: values,
         type: "bar",
+        itemStyle: {
+          color: "green",
+        },
       },
       {
-        name: "Плановая производительность",
-        data: lines,
+        name: "Факт",
+        data: valuesFT,
+        type: "bar",
+        itemStyle: {
+          color: "orange",
+        },
+      },
+      {
+        name: "Суммарный план",
+        data: accumFt,
         type: "line",
         itemStyle: {
           color: "red",
@@ -98,10 +126,13 @@ function OrdersGraph(props: any) {
         showSymbol: false,
       },
       {
-        name: "Тренд производительности",
-        data: treedOeeValues,
+        name: "Суммарный факт",
+        data: accumPt,
         type: "line",
         showSymbol: false,
+        itemStyle: {
+          color: "blue",
+        },
       },
     ],
     grid: {
@@ -141,4 +172,4 @@ function OrdersGraph(props: any) {
   );
 }
 
-export { OrdersGraph };
+export { QuotesGraph };

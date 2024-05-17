@@ -149,7 +149,6 @@ function Orders() {
           // useDirtyRect: false
         }
       );
-      console.log(options, "OPTIONS");
       myChart.setOption(options);
       return () => {
         myChart.dispose();

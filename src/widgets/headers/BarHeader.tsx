@@ -13,7 +13,7 @@ function BarHeader(props: {
 
   const pagesTypes = {
     oee: "OEE",
-    quota: "Фактические квоты",
+    quota: "Трудоёмкость",
     orders: "Продуктивность",
     status: "Статус заказов",
     complexity: "Трудоёмкость",

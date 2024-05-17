@@ -7,7 +7,7 @@ import { Footer } from "../widgets/footer/Footer";
 import { BarHeader } from "../widgets/headers";
 // import { MyButton } from "../widgets/UI/Button/MyButton";
 // import { Oee } from "../widgets/graphs/Oee";
-import { Quot } from "../widgets/graphs/Quots";
+import { Quots } from "../widgets/graphs/Quots";
 import { Orders } from "../widgets/graphs/Orders";
 import { NewOee } from "../widgets/graphs/NewOee.tsx";
 
@@ -36,7 +36,7 @@ function Graphs() {
         setChildren(<NewOee />);
         break;
       case "quota":
-        setChildren(<Quot type={"days"} />);
+        setChildren(<Quots />);
         break;
       case "orders":
         setChildren(<Orders />);

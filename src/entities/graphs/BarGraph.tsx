@@ -28,7 +28,6 @@ function BarGraph(props: any) {
     ],
     []
   );
-  console.log(names);
   const lines: any = [];
   const treedValues: any[] = [];
   const values = props.data.reduce(
