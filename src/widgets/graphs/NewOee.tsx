@@ -12,9 +12,6 @@ import "./styles.scss";
 
 function NewOee(props: any) {
   console.log(props);
-  milling.splice(0, 11);
-  grinding.splice(0, 11);
-  turrMill.splice(0, 11);
   function getData() {
     const data = [];
     data.push(fitting);
