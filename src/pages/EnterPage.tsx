@@ -61,7 +61,7 @@ function EnterPage() {
           }}
           variant="contained"
         >
-          Заказы
+          Продуктивность
         </Button>
         <Button
           style={styleInput}

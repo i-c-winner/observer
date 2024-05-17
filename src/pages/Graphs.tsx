@@ -44,7 +44,7 @@ function Graphs() {
       default:
         break;
     }
-  }, []);
+  }, [type]);
 
   return (
     <Box

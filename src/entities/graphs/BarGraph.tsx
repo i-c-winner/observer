@@ -64,7 +64,8 @@ function BarGraph(props: any) {
       },
     },
     legend: {
-      data: ["OEE", "Плановое OEE", "Тренд OEE"],
+      right: 150,
+      data: ["ОЕЕ", "Плановое ОЕЕ", "Тренд ОЕЕ"],
     },
     xAxis: {
       type: "category",
@@ -104,7 +105,7 @@ function BarGraph(props: any) {
     },
   };
   function getName() {
-    return worksMap[nameGraph] ?? "";
+    return worksMap[nameGraph] ?? "Данные отсутсвуют";
   }
   useEffect(() => {
     if (refBox.current !== null) {
@@ -122,7 +123,7 @@ function BarGraph(props: any) {
         myChart.dispose();
       };
     }
-  }, [props.type]);
+  });
 
   return (
     <Box>

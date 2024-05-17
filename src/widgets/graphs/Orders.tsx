@@ -14,7 +14,7 @@ function Orders() {
   const refBox = useRef<HTMLDivElement | null>(null);
 
   const names = productive.reduce(
-    (accum: any, element: any) => [...accum, element.Month],
+    (accum: any, element: any) => [...accum, {month: element.Month, year: element.Year}],
     []
   );
   const lines: any = [];
@@ -40,17 +40,32 @@ function Orders() {
   const options: echarts.EChartOption | EChartsResponsiveOption = {
     xAxis: {
       type: "category",
-      data: names,
+      data: names.map(({ month, year}:{month: string, year: string}) => `${year}/${month}`),
     },
     yAxis: {
       type: "value",
     },
+    tooltip: {
+      trigger: "axis",
+      axisPointer: {
+        // @ts-ignore
+        formatter: (params: any) => {
+          const { month, year } = params[0].value;
+          return `${year}/${month}`;
+        },
+      },
+    },
+    legend: {
+      data: ["Продуктивность", "Плановая продуктивность", "Тренд продуктивности"],
+    },
     series: [
       {
+        name: "Продуктивность",
         data: values,
         type: "bar",
       },
       {
+        name: "Плановая продуктивность",
         data: lines,
         type: "line",
         itemStyle: {
@@ -59,6 +74,7 @@ function Orders() {
         showSymbol: false,
       },
       {
+        name: "Тренд продуктивности",
         data: treedOeeValues,
         type: "line",
         showSymbol: false,
@@ -68,7 +84,7 @@ function Orders() {
       left: "10%", // отступ слева
       right: "10%", // отступ справа
       bottom: "10%", // отступ снизу
-      top: "30%", // отступ сверху
+      top: "20%", // отступ сверху
       containLabel: true, // включает метки в область графика
     },
   };
